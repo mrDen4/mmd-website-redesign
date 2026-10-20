@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <base href="https://03.com.ru/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Платная перевозка больных коронавирусом в Москве домой</title>
+    <meta name="description" content="Медицинская эвакуация пациентов с коронавирусом в стационар. Термометрия сотрудников на предприятии. Платный тест на коронавирус с выездом в организацию">
+    <meta name="yandex-verification" content="7d4bbf02a748f1a2" />
+    <meta property="og:title" content="03.com.ru"/>
+    <meta property="og:description" content="Московская скорая помощь"/>
+    <meta property="og:image" content="assets/components/rma/assets/images/favicon.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content= "https://03.com.ru"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/slick.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />-->
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/main.css">
+    <link rel="icon" type="image/png" href="assets/components/rma/assets/images/favicon.png">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(29255260, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+       });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <a href="https://03.com.ru/" class="header__logo">
+            <img src="assets/components/rma/assets/images/logo.jpg" alt="moscow medical department" class="logo__img">
+        </a>
+        <ul class="header__menu">
+            <li class="menu__item">
+                <a href="akczii/" class="item__link">Акции</a>
+            </li>
+            <li class="menu__item">
+                <a href="uslugi/" class="item__link">Услуги</a>
+            </li>
+            <li class="menu__item">
+                <a href="brigadyi/" class="item__link">Бригады</a>
+            </li>
+            <li class="menu__item">
+                <a href="novosti/2020/" class="item__link">Новости</a>
+            </li>
+            <li class="menu__item">
+                <a href="kontaktyi" class="item__link">Контакты</a>
+            </li>
+        </ul>
+        <a onclick="ym(29255260, 'reachGoal', 'headerPhone'); return true;" href="tel:+74957553503" class="header__phone">
+            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+            8-495-755-35-03
+        </a>
+        <button class="header__hamburger">
+            <img src="assets/components/rma/assets/images/new/hamburger.svg" alt="меню" class="hamburger__img">
+        </button>
+        <button class="header__exit-popup"> &times; </button>
+    </div>
+</header>
+<section class="section news">
+    <div class="container news__container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="https://03.com.ru/" class="item__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+                /
+            </li>
+            <li class="breadcrumbs__item">
+                Новости
+            </li>
+        </ul>
+        <h1 class="title news__title">Последние новости медицины о коронавирусе</h1>
+        <ul class="news__years">
+            <li class="years__item years__item--active">
+                <a href="novosti/2020" class="item__link">2020</a>
+            </li>
+            <li class="years__item ">
+                <a href="novosti/2019" class="item__link">2019</a>
+            </li>
+            <li class="years__item ">
+                <a href="novosti/2018" class="item__link">2018</a>
+            </li>
+            <li class="years__item ">
+                <a href="novosti/2017" class="item__link">2017</a>
+            </li>
+            <li class="years__item ">
+                <a href="novosti/2016" class="item__link">2016</a>
+            </li>
+            <li class="years__item ">
+                <a href="novosti/2015" class="item__link">2015</a>
+            </li>
+        </ul>
+        <ul class="news__list">
+            <li class="list__item ">
+    <a href="novosti/2020/zakazat-dezhurstvo-mashinyi-skoroj-pomoshhi-v-vyixodnyie-i-prazdniki" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/31.12.2020.jpg" alt="Заказать дежурство машины скорой помощи на праздники" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    31.12.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Заказать дежурство машины скорой помощи на праздники</h2>
+            <p class="item__text">
+                В России очень много праздников и выходных. Но самые любимые у большинства - новогодние ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/napominanie-rabotodatelyu-ob-obyazatelnom-medosmotre-voditelej" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/30.12.2020.jpg" alt="Напоминание работодателю об обязательном медосмотре водителей" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    30.12.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Обязательный медосмотр водителей</h2>
+            <p class="item__text">
+                Конец 2020 года ознаменовался новым событием! 30 декабря мы заключили договор с ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/mediczinskoe-obespechenie-massovyix-meropriyatij-podmoskove" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/30.11.2020.jpg" alt="Медицинское обеспечение массовых мероприятий Подмосковье" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    30.11.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинское обеспечение мероприятий в Подмосковье</h2>
+            <p class="item__text">
+                В этой статье ответим на одни из наиболее популярных вопросов медицинского сопровождения мероприятий ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/gospitalizacziya-pri-infarkte-vo-vremya-pandemii-koronavirusa" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/09.11.2020.jpg" alt="Госпитализация при инфаркте во время пандемии коронавируса " class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    09.11.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Госпитализация при инфаркте во время пандемии коронавируса </h2>
+            <p class="item__text">
+                Из-за коронавируса многие московские профильные стационары были перепрофилированы под ковид. Главный вопрос ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/vrachi-na-meropriyatiyax-v-period-pandemii-koronavirusa" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/18.10.2020.jpg" alt="Врачи на мероприятиях в период пандемии коронавируса" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    18.10.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Врачи на мероприятиях в период пандемии коронавируса</h2>
+            <p class="item__text">
+                С 16 по 18 октября в Москве на ул. Мосфильмовская д. 40 проходил конкурс «Цифровой прорыв 2020»
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/vakczinacziya-ot-koronavirusa" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/16.10.2020(2).jpg" alt="Вакцинация от коронавируса" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.10.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вакцинация от коронавируса</h2>
+            <p class="item__text">
+                Вакцинация от коронавируса - главная тема осени 2020. Все потому что именно Россия стала первой страной, которая изобрела вакцину ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/kak-perevozit-bolnogo-koronavirusom" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/05.10.2020.jpg" alt="Как перевозить больного коронавирусом?" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    05.10.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Как перевозить больного коронавирусом?</h2>
+            <p class="item__text">
+                5 октября 2020 года инфекционная бригада «Московской скорой помощи» организовала перевозку больного коронавирусом
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/privivka-ot-koronavirusa-budet-obyazatelnoj" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/30.09.2020.jpg" alt="Прививка от коронавируса будет обязательной?" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    30.09.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Прививка от коронавируса будет обязательной?</h2>
+            <p class="item__text">
+                После того, как российские ученые из Национального исследовательского центра эпидемиологии и микробиологии ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item ">
+    <a href="novosti/2020/zakazat-skoruyu-pomoshh-na-meropriyatie" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/19.09.2020.jpg" alt="Заказать скорую помощь на мероприятие" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    19.09.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Заказать скорую помощь на мероприятие</h2>
+            <p class="item__text">
+                18 и 19 сентября в ГЦКЗ России прошел концерт, посвященный Дню Победы, который из-за эпидемии коронавируса ранее пришлось отменить.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/reanimacziya-na-sorevnovaniyax" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/09.09.2020.jpg" alt="Реанимация на соревнованиях" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    09.09.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Реанимация на соревнованиях</h2>
+            <p class="item__text">
+                9 сентября во дворце художественной гимнастики Ирины Вебер - Усмановой прошел турнир памяти Абдулманапа Нурмагомедова ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/brigada-skoroj-pomoshhi-na-meropriyatie" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/31.08.2020.jpg" alt="Бригада скорой помощи на мероприятие" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    31.08.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Бригада скорой помощи на мероприятие</h2>
+            <p class="item__text">
+                Организуете спортивное мероприятие? Нужно заказать услуги медицинского сопровождения, но не знаете, какую выбрать бригаду?
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/telefon-platnoj-skoroj-pomoshhi" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/19.08.2020.jpg" alt="Телефон платной скорой помощи" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    19.08.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Телефон платной скорой помощи</h2>
+            <p class="item__text">
+                19 августа частная скорая помощь MMD отправилась на вызов к жителю Москвы 1968 года рождения.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/soprovozhdenie-skoroj-na-semkax" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/08.08.2020.jpg" alt="Сопровождение скорой на съемках" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    08.08.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Сопровождение скорой на съемках</h2>
+            <p class="item__text">
+                Несмотря на то, что съемки популярных телевизионных передач проходят без зрителей, организаторы продолжают заказывать сопровождение скорой.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/dezhurstvo-vracha-dlya-izmereniya-temperaturyi-sotrudnikov" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/28.07.2020.jpg" alt="Дежурство врача для измерения температуры сотрудников " class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    28.07.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Дежурство врача для измерения температуры сотрудников </h2>
+            <p class="item__text">
+                Несмотря на послабление ограничительных мер, риск заражения коронавирусом остается довольно высоким.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/izmerenie-temperaturyi-sotrudnikov-moskva" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/16.07.2020.jpg" alt="Измерение температуры сотрудников Москва" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.07.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Измерение температуры сотрудников Москва</h2>
+            <p class="item__text">
+                Благодаря введению в Москве жестких санитарных мер на предприятиях и режиму самоизоляции случаи заболевания коронавирусом снизились в 3-4 раза.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyizvat-kommercheskuyu-skoruyu-pomoshh" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/07.07.2020.jpg" alt="Вызвать коммерческую скорую помощь" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    07.07.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вызвать коммерческую скорую помощь</h2>
+            <p class="item__text">
+                Частная скорая помощь Moscow Medical Department отправилась на вызов к беременной девушке 1990 года рождения.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/perevozka-bolnogo-nedorogo" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/28.06.2020.jpg" alt="Перевозка больного недорого" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    28.06.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Перевозка больного недорого</h2>
+            <p class="item__text">
+                Заказать платную перевозку больного - несложно.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/platnaya-skoraya-nevrologicheskaya-pomoshh-reutov" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/16.06.2020.jpg" alt="Платная скорая неврологическая помощь Реутов" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.06.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Платная скорая неврологическая помощь Реутов</h2>
+            <p class="item__text">
+                16.06.2020 скорая неврологическая помощь Moscow Medical Department отправилась на вызов в г. Реутов.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/medosmotr-voditelya-avtomobilya" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/10.06.2020.jpg" alt="Медосмотр водителя автомобиля" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    10.06.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медосмотр водителя автомобиля</h2>
+            <p class="item__text">
+                Медосмотр водителей автомобилей - установленная законодательством процедура.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/arenda-skoroj-pomoshhi-dlya-perevozki-bolnogo" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/05.06.2020(2).jpg" alt="Аренда скорой помощи для перевозки больного" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    05.06.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Аренда скорой помощи для перевозки больного</h2>
+            <p class="item__text">
+                Необходимо организовать медицинскую транспортировку больных? Обращайтесь в компанию Московская скорая помощь. 
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/zakaz-perevozki-lezhachix-bolnyix" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/19.05.2020(2).jpg" alt="Заказ перевозки лежачих больных" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    27.05.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Заказ перевозки лежачих больных</h2>
+            <p class="item__text">
+                27 мая усиленная бригада реанимации Московской скорой помощи организовала перевозку лежачего больного ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/dezhurstvo-vracha-na-semkax" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/15.05.2020(2).jpg" alt="Дежурство врача на съемках" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    15.05.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Дежурство врача на съемках</h2>
+            <p class="item__text">
+                Актерская профессия часто связана с риском получения физических травм...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/skoraya-perevozka-bolnyix-v-moskvu-iz-g.-ramenskoe" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/06.05.2020(3).jpg" alt="Скорая перевозка больных в Москву из г. Раменское" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    06.05.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Скорая перевозка больных в Москву из г. Раменское</h2>
+            <p class="item__text">
+                06.05 оператор частной скорой получил экстренный вызов на медицинскую транспортировку больного из больницы в г. Раменское
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/perevozka-lezhachego-bolnogo-v-kome-na-reanimobile" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/01.05.2020.jpg" alt="Перевозка лежачего больного в коме на реанимобиле" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    01.05.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Перевозка лежачего больного в коме на реанимобиле</h2>
+            <p class="item__text">
+                01.05.2020 реанимационная бригада “Московской скорой” осуществила перевозку лежачего больного в коме
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/telefon-chastnoj-skoroj-pomoshhi" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/03.04.2020(2).jpg" alt="Телефон частной скорой помощи" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    24.04.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Телефон частной скорой помощи</h2>
+            <p class="item__text">
+                Какую частную скорую помощь выбрать, чтобы остаться довольным качеством медицинской услуги и ценой?
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyizov-skoroj-pomoshhi-koronavirus" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/08.04.2020(2).jpg" alt="Вызов скорой помощи коронавирус" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.04.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вызов скорой помощи коронавирус</h2>
+            <p class="item__text">
+                16 апреля реанимационная бригада скорой выехала для организации перевозки больного в клинику МЕДСИ на пятницком шоссе.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/gde-i-kak-sdat-test-na-koronavirus-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/09.04.2020.jpg" alt="Где и как сдать тест на коронавирус в Москве?" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    09.04.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Где и как сдать тест на коронавирус в Москве?</h2>
+            <p class="item__text">
+                С 9 апреля в компании «Московская скорая помощь» можно сдать платный тест на коронавирус.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyizvat-chastnuyu-skoruyu-pomoshh-kardiobolnyim" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/05.04.2020.jpg" alt="Вызвать частную скорую помощь кардиобольным" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    05.04.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вызвать частную скорую помощь кардиобольным</h2>
+            <p class="item__text">
+                5 апреля бригада скорой помощи по вызову в Москве во главе с врачом - кардиологом выехала к женщине 1961 года рождения.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/termometriya-sotrudnikov-v-period-karantina-koronavirusa" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/01.04.2020(3).jpg" alt="Термометрия сотрудников в период карантина коронавируса" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    01.04.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Термометрия сотрудников в период карантина коронавируса</h2>
+            <p class="item__text">
+                Карантин в Москве продлевается до конца апреля. Сергей Собянин подписал соответствующий документ ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyiezdnoj-vrach-na-zavod,-predpriyatie,-v-ofis" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/27.03.2020.jpg" alt="Врач с тепловизором для измерения температуры" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    27.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Врач с тепловизором для измерения температуры</h2>
+            <p class="item__text">
+                Эпидемия коронавируса застала врасплох более 100 стран.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/stoimost-mediczinskogo-soprovozhdeniya-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/24.03.2020.jpg" alt="Стоимость медицинского сопровождения в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    24.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Стоимость медицинского сопровождения в Москве</h2>
+            <p class="item__text">
+                Уже два дня россияне находятся на официальных выходных из-за коронавируса. 
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyiezd-vracha-v-ofis,-na-predpriyatie-s-teplovizorom-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/20.03.2020.jpg" alt="Выезд врача в офис, на предприятие с тепловизором в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    20.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Выезд врача в офис, на предприятие с тепловизором в Москве</h2>
+            <p class="item__text">
+                Всемирная организация здравоохранения признала вспышку коронавируса международной чрезвычайной ситуации.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/ukaz-mera-moskvyi-o-zaprete-massovyix-meropriyatij-iz-za-pandemii" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/16.03.2020.jpg" alt="Указ мэра Москвы о запрете массовых мероприятий из-за пандемии" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Указ мэра Москвы о запрете массовых мероприятий из-за пандемии</h2>
+            <p class="item__text">
+                16 марта вышел указ мэра Москвы о введении новых мер в связи с угрозой распространения коронавируса.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/mediczinskaya-perevozka-bolnogo-reanimobilem-iz-noginska" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/14.03.2020.jpg" alt="Медицинская перевозка больного реанимобилем из Ногинска " class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    14.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинская перевозка больного реанимобилем из Ногинска </h2>
+            <p class="item__text">
+                14 марта выездная реанимационная бригада «Московской скорой» организовала перевозку ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/soprovozhdenie-skoroj-konczerta-hammali-i-navai" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/09.03.2020.jpg" alt="Сопровождение скорой концерта HammAli & Navai" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    08.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Сопровождение скорой концерта HammAli & Navai</h2>
+            <p class="item__text">
+                8 марта в клубе Adrenalin.Stadium прошел концерт известного российского рэп-дуэта HammAli & Navai.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/arenda-skoroj-na-meropriyatie-v-chest-8-marta" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/08.03.2020.jpg" alt="Аренда скорой на мероприятие в честь 8 марта" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    08.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Аренда скорой на мероприятие в честь 8 марта</h2>
+            <p class="item__text">
+                В преддверии прекрасного праздника 8 марта, в Известия Холл состоялась традиционная Мегадискотека 90-х ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vrach-terapevt-na-dom-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/02.03.2020.jpg" alt="Врач - терапевт на дом в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    02.03.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Врач - терапевт на дом в Москве</h2>
+            <p class="item__text">
+                2 марта операторы Московской скорой приняли три заявки на вызов платного врача на дом по ДМС.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/mediczinskoe-soprovozhdenie-massovyix-meropriyatij-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/29.02.2020.jpg" alt="Медицинское сопровождение массовых мероприятий в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    29.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинское сопровождение массовых мероприятий в Москве</h2>
+            <p class="item__text">
+                Политизированная панк - рок группа Порнофильмы выступала в Московском клубе Adrenalin Stadium 28 и 29 февраля.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/arenda-skoroj-na-konczert-lyube-v-krokus-siti-xoll" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/22.02.2020.jpg" alt="Аренда скорой на концерт Любэ в Крокус Сити Холл" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    22.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Аренда скорой на концерт Любэ в Крокус Сити Холл</h2>
+            <p class="item__text">
+                22 февраля две машины скорой помощи MMD дежурили в Крокус Сити Холл на концерте «Мы пойдём конем» популярной группы ЛЮБЭ.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/obyazatelnyij-mediczinskij-osmotr-voditelej" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/19.02.2020.jpg" alt="Обязательный медицинский осмотр водителей" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    19.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Обязательный медицинский осмотр водителей</h2>
+            <p class="item__text">
+                С февраля этого года компания Московская скорая заключила договор на предрейсовый медосмотр водителей с КФХ «Пчеловод».
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/mediczinskoe-soprovozhdenie-detej-mashinoj-reanimaczii" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/16.02.2020.jpg" alt="Медицинское сопровождение детей машиной реанимации" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    16.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинское сопровождение детей машиной реанимации</h2>
+            <p class="item__text">
+                Московская скорая помощь организует медицинское обеспечение детских мероприятий с 2013 года.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/mediczinskoe-soprovozhdenie-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/14.02.2020.jpg" alt="Медицинское сопровождение в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    14.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинское сопровождение в Москве</h2>
+            <p class="item__text">
+                Многие медицинские компании в Москве оказывают услуги сопровождения скорой помощи на мероприятиях.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/telefon-platnoj-psixiatricheskoj-brigadyi-skoroj-v-moskve" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/10.02.2020.jpg" alt="Телефон платной психиатрической бригады скорой в Москве" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    10.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Телефон платной психиатрической бригады скорой в Москве</h2>
+            <p class="item__text">
+                Карл Юнг сказал: «Покажите мне психически здорового человека и я его вылечу». 
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/dezhurnaya-skoraya-pomoshh-pri-epilepticheskom-pripadke" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/08.02.2020.jpg" alt="Дежурная скорая помощь при эпилептическом припадке" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    08.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Дежурная скорая помощь при эпилептическом припадке</h2>
+            <p class="item__text">
+                8 февраля во время шоу музыкального диско - марафона MegaDance 90-е в Известия Холл у мужчины ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/platnaya-skoraya-pomoshh-ximki" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/03.02.2020.jpg" alt="Платная скорая помощь Химки" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    03.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Платная скорая помощь Химки</h2>
+            <p class="item__text">
+                3 февраля платная скорая помощь MMD выехала на вызов к пациентке из г. Химки.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/vyizov-platnogo-pediatra-na-dom-v-reutov" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/02.02.2020.jpg" alt="Вызов платного педиатра на дом в Реутов" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    02.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вызов платного педиатра на дом в Реутов</h2>
+            <p class="item__text">
+                2 февраля оператор Московской скорой получил заявку на вызов платного педиатра на дом в г. Реутов.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/mediczinskoe-obespechenie-vrachom-sorevnovanij-po-regbi" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/01.02.2020.jpg" alt="Медицинское обеспечение врачом соревнований по регби" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    01.02.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Медицинское обеспечение врачом соревнований по регби</h2>
+            <p class="item__text">
+                25 января бригада медицинских работников экстренно госпитализировала молодого человека 16 лет с переломом левой ключицы.
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/skoruyu-na-sportivnoe-meropriyatie-na-chem-nelzya-ekonomit!" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/29.01.2020.jpg" alt="Скорую на спортивное мероприятие? На чем нельзя экономить!" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    29.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Скорую на спортивное мероприятие? На чем нельзя экономить!</h2>
+            <p class="item__text">
+                Выбрать медицинскую организацию для сопровождения - задача непростая. Не торопитесь и следуйте нашим советам ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/kak-ustroena-pomoshh-na-bortu-mediczinskogo-vertoleta-dlya-evakuaczii-postradavshix" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/26.01.2020.jpg" alt="Эвакуация пострадавших на борту медицинского вертолета" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    26.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Эвакуация пострадавших на борту медицинского вертолета</h2>
+            <p class="item__text">
+                Как сотрудники Московской скорой оказывают помощь на борту медицинского вертолета?
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/kak-perevezti-lezhachego-bolnogo-poezdom" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/22.01.2020.jpg" alt="Перевезти лежачего больного поездом? Читайте здесь." class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    22.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Перевезти лежачего больного поездом? Читайте здесь.</h2>
+            <p class="item__text">
+                Может ли человек из региона лечиться бесплатно в Москве? Конечно, если у него ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/kak-vyizvat-vracha-na-dom-dly-novorozhdennogo" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/17.01.2020(4).jpg" alt="Вызвать врача на дом для новорожденного? Подробности здесь!" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    17.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вызвать врача на дом для новорожденного? Подробности здесь!</h2>
+            <p class="item__text">
+                Любая женщина, которая готовится стать мамой, должна знать, что в первые минуты жизни крохи ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/perevozka-bolnogo-na-katere-vodnaya-skoraya-pomoshh-v-rossii" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/14.01.2020.jpg" alt="Перевозка больного на катере - водная скорая помощь в России" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    14.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Перевозка больного на катере - водная скорая помощь в России</h2>
+            <p class="item__text">
+                Ещё в 2005 году главный врач городской станции скорой медицинской помощи ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/zakaz-skoroj-pomoshhi-vozmozhnost-izbezhat-proverok-sledstvennogo-komiteta" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/12.01.2020.jpg" alt="Заказ скорой помощи - гарантия безопасности организаторов" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    12.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Заказ скорой помощи - гарантия безопасности организаторов</h2>
+            <p class="item__text">
+                12 января организаторы взяли в аренду автомобиль скорой медицинской помощи ...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/kogda-neobxodimo-vyizyivat-skoruyu-narkologicheskuyu-pomoshh" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/06.01.2020(2).jpg" alt="Вывод из запоя на дому. Когда необходимо организовать?" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    06.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Вывод из запоя на дому. Когда необходимо организовать?</h2>
+            <p class="item__text">
+                Благодаря Московской скорой помощи, каждый может воспользоваться услугами врача - нарколога круглосуточно...
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/telefon-dlya-vyizova-vracha-skoroj-pomoshhi-pri-gipertonii" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/05.01.2020.jpg" alt="Телефон для вызова врача скорой помощи при гипертонии" class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    05.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Телефон для вызова врача скорой помощи при гипертонии</h2>
+            <p class="item__text">
+                Сколько коллег у вас на работе жалуются на головные боли из-за высокого давления?
+            </p>
+        </div>
+    </a>
+</li><li class="list__item list__item--hidden">
+    <a href="novosti/2020/ulichnyij-travmatizm.-pervaya-pomoshh-na-massovyix-meropriyatiyax" class="item__link">
+        <div class="item__image">
+            <img src="assets/components/rma/assets/images/news/2020/03.01.2020.jpg" alt="Уличный травматизм. Первая помощь на массовых мероприятиях." class="item__img">
+                <div class="item__info">
+                <p class="info__date">
+                    03.01.2020
+                </p>
+            </div>
+        </div>
+        <div class="item__content">
+            <h2 class="item__title">Первая помощь на массовых мероприятиях. Уличный травматизм. </h2>
+            <p class="item__text">
+                Медицинские работники Московской скорой дежурили в парке «Певческое поле» c 30 декабря по 3 января ...
+            </p>
+        </div>
+    </a>
+</li>
+        </ul>
+        <button class="btn news__btn">Показать еще</button>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section callback">
+    <div class="container callback__container">
+
+        <h2 class="callback__title">
+            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ОПЕРАТИВНУЮ ПОМОЩЬ
+        </h2>
+
+        <form method="post" class="callback__form">
+
+            <input type="text" name="nospam" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__block">
+                <input type="text" class="form__inp" name="name"
+                       value="" placeholder="Имя" required>
+                <img src="assets/components/rma/assets/images/new/form/name.svg"
+                     alt="имя" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="tel" class="form__inp" name="phone"
+                       value="" placeholder="Телефон" required>
+                <img src="assets/components/rma/assets/images/new/phone.svg"
+                     alt="телефон" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="email" class="form__inp" name="email"
+                       value="" placeholder="E-mail" required>
+                <img src="assets/components/rma/assets/images/new/form/email.svg"
+                     alt="e-mail" class="form__img">
+            </div>
+
+            <div class="form__block-btn">
+
+                <input type="submit"
+                       name="order-submit"
+                       value="отправить"
+                       class="btn form__btn">
+
+                <p class="callback__text">
+                    Нажимая на кнопку отправить, <br>
+                    я даю согласие на
+                    <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text__link">
+                        обработку данных
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+    </div>
+</section>
+<section class="section reviews-page reviews-page-no-padding">
+    <div class="container reviews__container">
+        <h1 class="title license__title">Отзывы</h1>
+<div class="reviews__slider-wrap">
+    <button class="arrows__btn arrows__btn--left">
+        <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+    </button>
+    <button class="arrows__btn arrows__btn--right">
+        <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+    </button>
+    <div class="reviews__slider">
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" class="slide__img">
+        </div>    
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>     
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+    </div>
+</div>
+    </div>
+    
+</section>
+
+<div class="bg"></div>
+
+
+
+
+<div class="popup" id="callback-popup">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Обратный звонок</h2>
+
+    <form method="post" class="popup__form" id="callback-form">
+
+        <input type="hidden" name="popup-submit" value="1">
+
+        <input type="text"
+               name="nospam"
+               value=""
+               style="display:none"
+               tabindex="-1"
+               autocomplete="off">
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/name.svg"
+                 alt="имя"
+                 class="form__icon">
+
+            <input type="text"
+                   class="row__inp"
+                   name="name"
+                   value=""
+                   placeholder="Имя"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/phone.svg"
+                 alt="телефон"
+                 class="form__icon">
+
+            <input type="tel"
+                   class="row__inp"
+                   name="phone"
+                   value=""
+                   placeholder="Телефон"
+                   id="form-buy-phone"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/email.svg"
+                 alt="email"
+                 class="form__icon">
+
+            <input type="email"
+                   class="row__inp"
+                   name="email"
+                   value=""
+                   placeholder="E-mail"
+                   id="popup-email"
+                   required>
+        </div>
+
+        <div class="popup__message" id="callback-error"
+             role="alert" style="display:none;"></div>
+
+        <p class="form__text">
+            Нажимая на кнопку отправить, <br>
+            я даю согласие
+            <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text__link">
+                на обработку данных
+            </a>
+        </p>
+
+        <button type="submit" class="btn form__btn" id="callback-submit">
+            ОТПРАВИТЬ
+        </button>
+
+    </form>
+</div>
+
+
+<div class="popup popup--thanks" id="callback-success">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Спасибо за заявку!</h2>
+
+    <div class="popup--thanks__content">
+        <p>Ваша заявка успешно отправлена.</p>
+        <p>Мы скоро с вами свяжемся!</p>
+
+        <button type="button" class="btn form__btn popup--thanks__btn">
+            ЗАКРЫТЬ
+        </button>
+    </div>
+
+</div>
+<div class="popup-menu">
+    <ul class="popup-menu__menu">
+        <li class="menu__item">
+            <a href="akczii/" class="item__link">Акции</a>
+        </li>
+        <li class="menu__item">
+            <a href="uslugi/" class="item__link">Услуги</a>
+        </li>
+        <li class="menu__item">
+            <a href="brigadyi/" class="item__link">Бригады</a>
+        </li>
+        <li class="menu__item">
+            <a href="novosti/2020/" class="item__link">Новости</a>
+        </li>
+        <li class="menu__item">
+            <a href="kontaktyi" class="item__link">Контакты</a>
+        </li>
+    </ul>
+</div>
+        <footer class="footer footer--white">
+            <div class="container footer__container">
+                <ul class="footer__menu">
+                    <li class="menu__item">
+                        <a href="o-kompanii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/about-blue.svg" alt="О компании" class="link__icon">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="liczenzii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/license-blue.svg" alt="Лицензии" class="link__icon">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="otzyivyi" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/reviews-blue.svg" alt="Отзывы" class="link__icon">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="polezno-znat/" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/faq-blue.svg" alt="Полезно знать" class="link__icon">
+                            Полезно знать
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a onclick="ym(29255260, 'reachGoal', 'footerMail'); return true;" href="mailto:mmd03@bk.ru" class="footer__mail">
+                            <img src="assets/components/rma/assets/images/new/email-blue.svg" alt="mail" class="mail__icon">
+                            mmd03@bk.ru
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="tel:+74957553503" class="footer__phone">
+                            <img src="assets/components/rma/assets/images/new/phone-blue.svg" alt="телефон" class="phone__icon">
+                            8-495-755-35-03
+                        </a>
+                    </li>
+                </ul>
+                <a onclick="ym(29255260, 'reachGoal', 'footerBuy'); return true;" href="oplata" class="btn footer__btn">оплатить онлайн</a>
+                <button class="btn footer__btn">Заказать звонок</button>
+                <!--<ul class="footer__socials">-->
+                <!--    <li class="socials__item">-->
+                <!--        <a href="https://dzen.ru/rocmedicina?utm_referer=rocmedicina.ru" target="_blank" class="item__link">-->
+                <!--            <img src="assets/components/rma/assets/images/socials/dzen-blue.svg" alt="Instagram" class="link__img">-->
+                <!--        </a>-->
+                <!--    </li>-->
+                <!--    <li class="socials__item">-->
+                <!--        <a href="https://rutube.ru/channel/31123550/" target="_blank" class="item__link">-->
+                <!--            <img src="assets/components/rma/assets/images/socials/rutube-blue.svg" alt="Vk" class="link__img">-->
+                <!--        </a>-->
+                <!--    </li>-->
+                <!--    <li class="socials__item">-->
+                <!--        <a href="https://www.youtube.com/channel/UCzx2qLH0SJZ9YMIVnqoQ0JQ/featured" target="_blank" class="item__link">-->
+                <!--            <img src="assets/components/rma/assets/images/socials/youtube-blue.svg" alt="Facebook" class="link__img">-->
+                <!--        </a>-->
+                <!--    </li>-->
+                <!--</ul>-->
+                <div class="footer__bottom">
+                    <p class="footer__copy">© 2013-2020, <a href="https://03.com.ru/" class="copy__link">www.03.com.ru</a> Все права защищены. Любое использование
+                        материалов сайта допускается только по согласованию с руководством сайта, с обязательной
+                        гиперссылкой на сайт <a href="https://03.com.ru/" class="copy__link">www.03.com.ru.</a>
+                        <br>Незаконное использование преследуется по закону. Все рекомендации по лечению даются только при
+                        очной консультации специалистов. Оставаясь на сайте, вы даёте согласие на <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" class="copy__link">обработку
+                        персональных данных.</a></p>
+                </div>
+            </div>
+        </footer>
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="assets/components/rma/assets/scripts/jquery.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/slick.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/main.js"></script>
+    <script src="assets/components/rma/assets/scripts/metrika.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110859389-1"></script>
+    <script src="assets/components/rma/assets/scripts/gtag.js"></script>
+</body>
+
+</html>

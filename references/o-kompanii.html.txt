@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <base href="https://03.com.ru/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Частная скорая помощь Москва, выездной осмотр водителя</title>
+    <meta name="description" content="Частная скорая помощь Москва цены. Дежурство скорой на мероприятиях, выезд врача, фельдшера на дом, выездные медицинские предсменные осмотры водителей">
+    <meta name="yandex-verification" content="7d4bbf02a748f1a2" />
+    <meta property="og:title" content="03.com.ru"/>
+    <meta property="og:description" content="Московская скорая помощь"/>
+    <meta property="og:image" content="assets/components/rma/assets/images/favicon.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content= "https://03.com.ru"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/slick.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />-->
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/main.css">
+    <link rel="icon" type="image/png" href="assets/components/rma/assets/images/favicon.png">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(29255260, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+       });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <a href="https://03.com.ru/" class="header__logo">
+            <img src="assets/components/rma/assets/images/logo.jpg" alt="moscow medical department" class="logo__img">
+        </a>
+        <ul class="header__menu">
+            <li class="menu__item">
+                <a href="akczii/" class="item__link">Акции</a>
+            </li>
+            <li class="menu__item">
+                <a href="uslugi/" class="item__link">Услуги</a>
+            </li>
+            <li class="menu__item">
+                <a href="brigadyi/" class="item__link">Бригады</a>
+            </li>
+            <li class="menu__item">
+                <a href="novosti/2020/" class="item__link">Новости</a>
+            </li>
+            <li class="menu__item">
+                <a href="kontaktyi" class="item__link">Контакты</a>
+            </li>
+        </ul>
+        <a onclick="ym(29255260, 'reachGoal', 'headerPhone'); return true;" href="tel:+74957553503" class="header__phone">
+            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+            8-495-755-35-03
+        </a>
+        <button class="header__hamburger">
+            <img src="assets/components/rma/assets/images/new/hamburger.svg" alt="меню" class="hamburger__img">
+        </button>
+        <button class="header__exit-popup"> &times; </button>
+    </div>
+</header>
+<section class="section service-hero" itemscope itemtype="https://schema.org/Product">
+    <div class="container service-hero__container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="https://03.com.ru/" class="item__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+                /
+            </li>
+            <li class="breadcrumbs__item">
+                О компании
+            </li>
+        </ul>
+        <div class="service-hero__text">
+            <h1 class="text__title" itemprop="name">Качественные медицинские услуги</h1>
+            <div class="text__block" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <p class="text__price" itemprop="price">
+                    от 5 500 ₽
+                </p>
+                <span class="text__currency" itemprop="priceCurrency">RUB</span>
+            </div>
+            <div class="text__btns">
+                <button onclick="ym(29255260, 'reachGoal', 'serviceBtn'); return true;" class="btn btns__btn">Заказать</button>
+            <a href="akczii/" class="btn btns__link">
+                подробнее
+            </a>
+            <a href="akczii/" class="btn btns__link btns__link--phone">
+                <img src="assets/components/rma/assets/images/new/arrow.svg" alt="подробнее" class="btn__img">
+            </a>
+            </div>
+        </div>
+        <img src="assets/components/rma/assets/images/o-kompanii.jpg" alt="" class="service-hero__img">
+    </div>
+</section>
+<section class="section service-about">
+    <div class="container service-about__container" itemscope itemtype="https://schema.org/Article">
+        <a name="about"></a>
+        <h2 class="service-about__title">О компании</h2>
+        <div class="service-about__text" itemprop="description">
+            <p>Moscow Medical Department - оперативная <strong>частная скорая помощь</strong>, с широким спектром <strong><a href="uslugi/">услуг</a></strong>: от выезда СМП и врача на дом до предрейсовых осмотров водителей. Наша цель - сделать квалифицированную медпомощь доступнее. Если в городской скорой большинство вызовов берет терапевт или фельдшер, то мы стремимся отправлять узких специалистов, в зависимости от жалоб пациента. Так, на сердечный приступ приедет кардиолог, а на отравление токсиколог. У нас в штате около 15-ти типов бригад. Автостанции СМП <a href="kontaktyi"><strong>распределены</strong> </a>по городу в зависимости от “проблемности” и густонаселенности районов. Автостанции СМП распределены по городу в зависимости от “проблемности” и густонаселенности районов.</p>
+<p class="justifyright" dir="ltr">Наши специалисты имеют медицинское образование, все необходимые <strong><a href="liczenzii">лицензии</a></strong> на оказание медуслуг, а также регулярно проходят курсы повышения квалификации и компетентны в смежных направлениях. Так, нарколог хорошо разбирается в психиатрии и токсикологии, а невролог в травматологии и ортопедии.</p>
+<p dir="ltr">Мы сотрудничаем с ведущими клиниками России и зарубежья и можем организовать госпитализацию в любое медучреждение (поможем с выбором стационара).</p>
+<p dir="ltr">При необходимости мы осуществляем транспортировку на оборудованном автомобиле, в поезде или на самолете. Последнее возможно как регулярным рейсом, так и на мед. авиатехнике. Мы также проводим предсменные предрейсовые и послерейсовые <strong>выездные медицинские осмотры</strong><strong> водителей</strong>.</p>
+<p dir="ltr">Одна из самых популярных услуг -<strong> <a href="uslugi/dezhurstvo-skoroj-pomoshhi">дежурство скорой на мероприятиях</a></strong>. Согласно распоряжению Минздрава, наши медики сопровождают массовые события, чтобы в критической ситуации каждый участник мог оперативно получить медпомощь.</p>
+<p dir="ltr">За 2018 год мы сопроводили 11 000 мероприятий, отработали 18 000 выездов к пациенту, осуществили 7 000 транспортировок и осмотрели 29 000 водителей перед рейсом.</p>
+<h2 dir="ltr">Почему стоит обратиться к нам?</h2>
+<ol>
+<li>Деятельность MMD одобрена Министерством здравоохранения Москвы;</li>
+<li>Свыше 10 подстанций по всему городу;</li>
+<li>Возможность эвакуации пациента на специальном самолете и вертолете;</li>
+<li>Автомобили, укомплектованные в соответствии с приказом Минздрава: аппарат ИВЛ, дефибриллятор, ингалятор, кардиограф и т. д.;</li>
+<li>Оперативное прибытие в течение 15-20 минут с момента вызова;</li>
+<li>Внеплановые выезды на дежурство, прибытие в течении 1 часа после заказа;</li>
+<li>Незамедлительное оказание первой помощи; </li>
+<li>Для постоянных клиентов действуют скидки (при оплате за наличный расчет);</li>
+</ol>
+<p dir="ltr">Круглосуточный телефон скорой помощи <strong><a href="tel:+74957553503">+7 (495) 755-35-03</a></strong> Сохраните этот номер на случай экстренной ситуации. </p>
+        </div>
+    </div>
+</section>
+<section class="section reviews-page reviews-page-no-padding">
+    <div class="container reviews__container">
+        <h1 class="title license__title">Отзывы</h1>
+<div class="reviews__slider-wrap">
+    <button class="arrows__btn arrows__btn--left">
+        <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+    </button>
+    <button class="arrows__btn arrows__btn--right">
+        <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+    </button>
+    <div class="reviews__slider">
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" class="slide__img">
+        </div>    
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>     
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+    </div>
+</div>
+    </div>
+    
+</section>
+
+<div class="bg"></div>
+
+
+
+
+<div class="popup" id="callback-popup">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Обратный звонок</h2>
+
+    <form method="post" class="popup__form" id="callback-form">
+
+        <input type="hidden" name="popup-submit" value="1">
+
+        <input type="text"
+               name="nospam"
+               value=""
+               style="display:none"
+               tabindex="-1"
+               autocomplete="off">
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/name.svg"
+                 alt="имя"
+                 class="form__icon">
+
+            <input type="text"
+                   class="row__inp"
+                   name="name"
+                   value=""
+                   placeholder="Имя"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/phone.svg"
+                 alt="телефон"
+                 class="form__icon">
+
+            <input type="tel"
+                   class="row__inp"
+                   name="phone"
+                   value=""
+                   placeholder="Телефон"
+                   id="form-buy-phone"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/email.svg"
+                 alt="email"
+                 class="form__icon">
+
+            <input type="email"
+                   class="row__inp"
+                   name="email"
+                   value=""
+                   placeholder="E-mail"
+                   id="popup-email"
+                   required>
+        </div>
+
+        <div class="popup__message" id="callback-error"
+             role="alert" style="display:none;"></div>
+
+        <p class="form__text">
+            Нажимая на кнопку отправить, <br>
+            я даю согласие
+            <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text__link">
+                на обработку данных
+            </a>
+        </p>
+
+        <button type="submit" class="btn form__btn" id="callback-submit">
+            ОТПРАВИТЬ
+        </button>
+
+    </form>
+</div>
+
+
+<div class="popup popup--thanks" id="callback-success">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Спасибо за заявку!</h2>
+
+    <div class="popup--thanks__content">
+        <p>Ваша заявка успешно отправлена.</p>
+        <p>Мы скоро с вами свяжемся!</p>
+
+        <button type="button" class="btn form__btn popup--thanks__btn">
+            ЗАКРЫТЬ
+        </button>
+    </div>
+
+</div>
+<div class="popup-menu">
+    <ul class="popup-menu__menu">
+        <li class="menu__item">
+            <a href="akczii/" class="item__link">Акции</a>
+        </li>
+        <li class="menu__item">
+            <a href="uslugi/" class="item__link">Услуги</a>
+        </li>
+        <li class="menu__item">
+            <a href="brigadyi/" class="item__link">Бригады</a>
+        </li>
+        <li class="menu__item">
+            <a href="novosti/2020/" class="item__link">Новости</a>
+        </li>
+        <li class="menu__item">
+            <a href="kontaktyi" class="item__link">Контакты</a>
+        </li>
+    </ul>
+</div>
+        <footer class="footer">
+            <div class="container footer__container">
+                <ul class="footer__menu">
+                    <li class="menu__item">
+                        <a href="o-kompanii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/about.svg" alt="О компании" class="link__icon">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="liczenzii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/license.svg" alt="Лицензии" class="link__icon">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="otzyivyi" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/reviews.svg" alt="Отзывы" class="link__icon">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="polezno-znat/" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/faq.svg" alt="Полезно знать" class="link__icon">
+                            Полезно знать
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a onclick="ym(29255260, 'reachGoal', 'footerMail'); return true;" href="mailto:mmd03@bk.ru" class="footer__mail">
+                            <img src="assets/components/rma/assets/images/new/form/email.svg" alt="mail" class="mail__icon">
+                            mmd03@bk.ru
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="tel:+74957553503" class="footer__phone">
+                            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+                            8-495-755-35-03
+                        </a>
+                    </li>
+                </ul>
+                <a onclick="ym(29255260, 'reachGoal', 'footerBuy'); return true;" href="oplata" class="btn footer__btn">оплатить онлайн</a>
+                <button class="btn footer__btn">Заказать звонок</button>
+                <div class="footer__bottom">
+                    <p class="footer__copy">© 2013-2025, <a href="https://03.com.ru/" class="copy__link">www.03.com.ru</a> Все права защищены. Любое использование
+                        материалов сайта допускается только по согласованию с руководством сайта, с обязательной
+                        гиперссылкой на сайт <a href="https://03.com.ru/" class="copy__link">www.03.com.ru.</a>
+                        <br>Незаконное использование преследуется по закону. Все рекомендации по лечению даются только при
+                        очной консультации специалистов. Оставаясь на сайте, вы даёте согласие на <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" class="copy__link">обработку
+                        персональных данных.</a></p>
+                </div>
+            </div>
+        </footer>
+    <script src="assets/components/rma/assets/scripts/jquery.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/slick.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/main.min.js"></script>
+    <!--<script defer src="assets/components/rma/assets/scripts/send-form-to-telegram.js"></script>-->
+</body>
+
+</html>

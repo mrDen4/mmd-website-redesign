@@ -1,0 +1,129 @@
+
+<section class="section reviews-page">
+    <div class="container reviews__container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="https://03.com.ru/" class="item__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+                /
+            </li>
+            <li class="breadcrumbs__item">
+                Лицензии
+            </li>
+        </ul>
+        <h1 class="title license__title">Коммерческая скорая помощь</h1>
+        <div class="reviews__slider-wrap">
+            <button class="arrows__btn arrows__btn--left">
+                <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+            </button>
+            <button class="arrows__btn arrows__btn--right">
+                <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+            </button>
+            <div class="reviews__slider">
+                <div class="reviews__slide">
+                    <img src="assets/components/rma/assets/images/licenses/1.jpg" alt="Лицензия на скорую медицинскую помощь" class="slide__img">
+                </div>
+                <div class="reviews__slide">
+                    <img src="assets/components/rma/assets/images/licenses/2.jpg" alt="Лицензия на сопровождение скорой помощи" class="slide__img">
+                </div>
+                <div class="reviews__slide">
+                    <img src="assets/components/rma/assets/images/licenses/3.jpg" alt="Лицензия на перевозку больного самолетом" class="slide__img">
+                </div>
+                <div class="reviews__slide">
+                    <img src="assets/components/rma/assets/images/licenses/4.jpg" alt="Лицензия на выезд платного врача на дом" class="slide__img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section callback">
+    <div class="container callback__container">
+
+        <h2 class="callback__title">
+            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ОПЕРАТИВНУЮ ПОМОЩЬ
+        </h2>
+
+        <form method="post" class="callback__form">
+
+            <input type="text" name="nospam" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__block">
+                <input type="text" class="form__inp" name="name"
+                       value="" placeholder="Имя" required>
+                <img src="assets/components/rma/assets/images/new/form/name.svg"
+                     alt="имя" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="tel" class="form__inp" name="phone"
+                       value="" placeholder="Телефон" required>
+                <img src="assets/components/rma/assets/images/new/phone.svg"
+                     alt="телефон" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="email" class="form__inp" name="email"
+                       value="" placeholder="E-mail" required>
+                <img src="assets/components/rma/assets/images/new/form/email.svg"
+                     alt="e-mail" class="form__img">
+            </div>
+
+            <div class="form__block-btn">
+
+                <input type="submit"
+                       name="order-submit"
+                       value="отправить"
+                       class="btn form__btn">
+
+                <p class="callback__text">
+                    Нажимая на кнопку отправить, <br>
+                    я даю согласие на
+                    <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text__link">
+                        обработку данных
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+    </div>
+</section>
+<section class="section service-about">
+    <div class="container service-about__container" itemscope itemtype="https://schema.org/Article">
+        <a name="about"></a>
+        <h2 class="service-about__title">Почему нужно выбирать компанию с медицинской лицензией?</h2>
+        <div class="service-about__text" itemprop="description">
+            <p>Неважно, заказываете вы <strong>сопровождение скорой помощи </strong>как юридическое лицо или нужно <strong>перевезти больного самолетом </strong>члена семьи за границей, только компания с медицинской лицензией гарантирует вам на конституционном уровне защиту и сохранность жизни и здоровья:</p>
+<p>1. Врачи лицензированных компаний проходят периодические медосмотры, а также психиатрическое освидетельствование, повышают квалификацию. Все они прирожденные врачи, которые любят свое дело и готовы развиваться, чтобы делать свою работу максимально эффективно! Ни один хороший специалист не будет работать в компании, где нет этого документа, т.к. подобная деятельность уголовно наказуема!</p>
+<p>2. Благодаря многочисленным проверкам, в таких организациях всё оборудование соответствует требованиям ГОСТ, а специалисты имеют специальный допуск для его эксплуатации. Дополнительной гарантией качества служит сертификат ISO.</p>
+<p>3. Возможность получения налоговых льгот и субсидий. Разве вы откажетесь вернуть 13% за лечение или <strong>вызов платной скорой помощи?</strong></p>
+<p>Согласно <strong>Постановлению Правительства РФ от 16.04.2012 № 291 (ред. от 08.12.2016)</strong> медицинская деятельность должна быть лицензирована! </p>
+<p><strong>На законном основании осуществляем следующие медицинские услуги:</strong></p>
+<ol>
+<li>Вызов/дежурство кардиолога, невролога, терапевта, психиатра - нарколога на дом.</li>
+<li>Вызов/перевозка/дежурство скорой помощи для оказания экстренной медицинской помощи по анестезиологии, реаниматологии, детской кардиологии, кардиологии, неврологии, педиатрии, травматологии, ортопедии.</li>
+<li>Проведение предсменных, предрейсовых и послерейсовых медицинских осмотров водителей.</li>
+<li>Проведение экспертиз временной нетрудоспособности.</li>
+</ol>
+<p><strong>Будьте внимательны! </strong>Недобросовестные компании публикуют только 2 страницы лицензии. Требуйте приложение! Часто компании не регистрируют все свои услуги, т.к. это довольно сложный и дорогой процесс.</p>
+<p>Вы не готовы к уголовной ответственности? </p>
+<p>Не настроены платить штраф за отсутствие договора скорой помощи? </p>
+<p>Работайте только с  проверенной компании - оставьте заявку или звоните по телефону <strong><a href="tel:+74957553503">+7(495)755-35-03</a></strong> Мы знаем свою работу.</p>
+        </div>
+        <div class="service-about__images">
+            <img src="assets/components/rma/assets/images/licenses/about/1.jpg" alt="" class="images__item">
+            <img src="assets/components/rma/assets/images/licenses/about/2.jpg" alt="" class="images__item">
+            <img src="assets/components/rma/assets/images/licenses/about/3.jpg" alt="" class="images__item">
+        </div>
+    </div>
+</section>

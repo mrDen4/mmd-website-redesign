@@ -38,7 +38,7 @@ menu.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu()});
 const popup=document.querySelector('#callback-popup');const backdrop=document.querySelector('.bg');let previousFocus;
 function openPopup(){previousFocus=document.activeElement;closeMenu();popup.hidden=false;backdrop.hidden=false;document.body.style.overflow='hidden';popup.querySelector('input:not([type=hidden]):not([name=nospam])').focus()}
 function closePopup(){popup.hidden=true;backdrop.hidden=true;document.body.style.overflow='';previousFocus?.focus()}
-document.querySelector('.btns__btn').addEventListener('click',openPopup);
+document.querySelectorAll('.btns__btn,[data-callback]').forEach(button=>button.addEventListener('click',openPopup));
 document.querySelector('button.footer__btn').addEventListener('click',openPopup);
 popup.querySelector('.popup__exit').addEventListener('click',closePopup);backdrop.addEventListener('click',closePopup);
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!popup.hidden)closePopup();closeMenu()}if(e.key==='Tab'&&!popup.hidden){const nodes=[...popup.querySelectorAll('button,a,input')].filter(n=>n.getClientRects().length&&!n.disabled);const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});

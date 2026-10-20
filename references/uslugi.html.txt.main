@@ -1,0 +1,417 @@
+
+<section class="section services">
+    <div class="container services__container" itemscope itemtype="http://schema.org/ItemList">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="#" class="item__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+                /
+            </li>
+            <li class="breadcrumbs__item">
+                Услуги
+            </li>
+        </ul>
+        <h1 class="title services__title">Услуги платной скорой помощи</h1>
+        <ul class="services__list">
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/vyizov-skoroj-pomoshhi" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/visov-scoroi-pomoshi.webp" alt="Вызов скорой помощи" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Вызов скорой помощи</h2>
+                        <p class="content__text" itemprop="description">
+                            Надоело часами ждать скорую, а после выслушивать возмущения врачей? «Moscow Medical Department» работают круглосуточно, приезжает за 20 минут. 
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/vyizov-vracha-na-dom" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/visov-vracha-na-dom.webp" alt="Вызов врача на дом" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Вызов врача на дом</h2>
+                        <p class="content__text" itemprop="description">
+                            Неохота в дождь идти за больничным и сидеть в очередях? Решит проблему терапевт MMD. Лечение и осмотр лежа в теплой кровати! 
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/dezhurstvo-skoroj-pomoshhi" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/dejurstvo-skoroi-pomoshi.webp" alt="Дежурство скорой помощи" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Дежурство скорой помощи</h2>
+                        <p class="content__text" itemprop="description">
+                            Готовы заплатить штраф 30 000 рублей? Нет? Тогда срочно отправьте заявку и закажите карету скорой помощи. 
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/dezhurstvo-vracha-na-meropriyatii" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/dejurstvo-vracha.webp" alt="Дежурство врача на мероприятии" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Дежурство врача на мероприятии</h2>
+                        <p class="content__text" itemprop="description">
+                            Дорого заказать дежурство скорой на мероприятие? Мы уже все придумали. Доверьтесь опытным врачам MMD. 
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/perevozka-bolnyix" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/perevozka-bolnih.webp" alt="Перевозка больных" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Перевозка больных</h2>
+                        <p class="content__text" itemprop="description">
+                            Нужно отвезти пациента с переломом позвоночника в больницу. Не знаете как поступить? Воспользуйтесь услугой - медицинская перевозка.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item" itemprop="itemListElement">
+                <a href="uslugi/mezhdugorodnyaya-perevozka-bolnyix" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/mejdugorodnya-perevoska-bolnih.webp" alt="Междугородняя перевозка больных" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Междугородняя перевозка больных</h2>
+                        <p class="content__text" itemprop="description">
+                            Вы из другого города, хотите лечиться в Москве? Подберем больницу, организуем госпитализацию, проконтролируем врачей, сэкономив ваш бюджет.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/mezhdunarodnaya-perevozka-bolnyix" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/mejdunarodnaya-perevozka.webp" alt="Международная перевозка больных" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Международная перевозка больных</h2>
+                        <p class="content__text" itemprop="description">
+                            Что выбрать - автомобиль, поезд или самолет? Изучим историю болезни, проконсультируемся с экспертами и организуем безопасную медицинскую перевозку! 
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/perevozka-bolnyix-poezdom" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/perevozka-poezdom.webp" alt="Перевозка больных поездом" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Перевозка больных поездом</h2>
+                        <p class="content__text" itemprop="description">
+                            Запланировано лечение за границей, но ограничен бюджет на перевозку больного? Закажите сопровождение в поезде безопасно и недорого!
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/aviaperevozka-bolnyix" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/aviaperevozka-bolnih.webp" alt="Авиаперевозка больных" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Авиаперевозка больных</h2>
+                        <p class="content__text" itemprop="description">
+                            Произошло ЧП? Нужна срочная операция для спасения жизни? Организуем воздушную скорую помощь!
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/predrejsovyij-osmotr-voditelej" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/poslereisovi-osmotr.webp" alt="Предрейсовый осмотр водителей" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Предрейсовый осмотр водителей</h2>
+                        <p class="content__text" itemprop="description">
+                            Попали под рейды ГИБДД? Снова заплатили штраф? Станьте нашим клиентом и забудьте про эти проблемы! 
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/poslerejsovyij-osmotr-voditelej" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/predreisovi-osmotr.webp" alt="Послерейсовый осмотр водителей" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Послерейсовый осмотр водителей</h2>
+                        <p class="content__text" itemprop="description">
+                            Перевозите людей или опасные грузы? Надоели проверки МАДИ? Заключите договор на послерейсовый осмотр водителей.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/gospitalizacziya-bolnyix" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/gospitalizaciya.webp" alt="Госпитализация больных" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Госпитализация больных</h2>
+                        <p class="content__text" itemprop="description">
+                            Как выбрать клинику в Москве и не переплатить? Как отследить, чтобы врачи не назначили лишние процедуры? MMD проконтролирует, обеспечит полноценное лечение.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/perevozka-bolnyix-kovid" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/perevozka-bolnih-covid.webp" alt="Вакцинация от коронавируса" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Перевозка больных ковид</h2>
+                        <p class="content__text" itemprop="description">
+                            Нужна перевозка ковид пациента на КТ, домой, больницу? Инфекционные бригады для коронавирусных больных!
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/aviaperevozka-bolnyix-kovid" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/aviaperevozka-bolnih-covid.webp" alt="Вакцинация от коронавируса" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Авиаперевозка больных ковид</h2>
+                        <p class="content__text" itemprop="description">
+                            Предоставим медицинский самолет для перевозки коронавирусных больных с полным комплексом кислородной и респираторной поддержки!
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/gospitalizacziya-bolnyix-kovid-v-moskve-besplatno" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/gosptitalizaciya-bolnih-covid.webp" alt="Вакцинация от коронавируса" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Госпитализация больных ковид</h2>
+                        <p class="content__text" itemprop="description">
+                            Заболели коронавирусом? В бюджетных стационарах нет мест, на платное лечение не хватает средств? Организуем лечение по ОМС бесплатно!
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/platnyij-test-na-koronavirus-v-moskve-czena" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/koronavirus.webp" alt="Тест на коронавирус" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Тест на коронавирус</h2>
+                        <p class="content__text" itemprop="description">
+                            Сдать экспресс - тест на коронавирус дома в Москве и Московской области. Пройти платный тест дома по доступной цене. Результат через 2 дня.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/termometriya-sotrudnikov" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/termometriya-sotrudnikov.webp" alt="Термометрия сотрудников" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Термометрия сотрудников</h2>
+                        <p class="content__text" itemprop="description">
+                            Заказать ежедневную термометрию сотрудников. Выезд врача в офис, на предприятие с бесконтактным градусником.
+                        </p>
+                    </div>
+                </a>    
+            </li>
+            <li class="list__item list__item--hide" itemprop="itemListElement">
+                <a href="uslugi/vakczinacziya-ot-koronavirusa" class="item__link">
+                    <div class="item__img">
+                        <img src="assets/components/rma/assets/images/final/services/webp/vakcinaciya-ot-koronavirusa.webp" alt="Вакцинация от коронавируса" class="img__img" itemprop="image">
+                    </div>
+                    <div class="item__content">
+                        <h2 class="content__title" itemprop="name">Вакцинация от коронавируса</h2>
+                        <p class="content__text" itemprop="description">
+                            Вакцинация от коронавирусной инфекции. Заказать выезд врача, сделать прививку от covid-19 сотрудникам.
+                        </p>
+
+                    </div>
+                </a>    
+            </li>
+        </ul>
+        <button class="btn services__btn">Показать еще</button>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section callback">
+    <div class="container callback__container">
+
+        <h2 class="callback__title">
+            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ОПЕРАТИВНУЮ ПОМОЩЬ
+        </h2>
+
+        <form method="post" class="callback__form">
+
+            <input type="text" name="nospam" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__block">
+                <input type="text" class="form__inp" name="name"
+                       value="" placeholder="Имя" required>
+                <img src="assets/components/rma/assets/images/new/form/name.svg"
+                     alt="имя" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="tel" class="form__inp" name="phone"
+                       value="" placeholder="Телефон" required>
+                <img src="assets/components/rma/assets/images/new/phone.svg"
+                     alt="телефон" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="email" class="form__inp" name="email"
+                       value="" placeholder="E-mail" required>
+                <img src="assets/components/rma/assets/images/new/form/email.svg"
+                     alt="e-mail" class="form__img">
+            </div>
+
+            <div class="form__block-btn">
+
+                <input type="submit"
+                       name="order-submit"
+                       value="отправить"
+                       class="btn form__btn">
+
+                <p class="callback__text">
+                    Нажимая на кнопку отправить, <br>
+                    я даю согласие на
+                    <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text__link">
+                        обработку данных
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+    </div>
+</section>
+<section class="section reviews-page reviews-page-no-padding">
+    <div class="container reviews__container">
+        <h1 class="title license__title">Отзывы</h1>
+<div class="reviews__slider-wrap">
+    <button class="arrows__btn arrows__btn--left">
+        <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+    </button>
+    <button class="arrows__btn arrows__btn--right">
+        <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+    </button>
+    <div class="reviews__slider">
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" class="slide__img">
+        </div>    
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>     
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+    </div>
+</div>
+    </div>
+    
+</section>
+

@@ -1,0 +1,236 @@
+
+<section class="section contacts">
+    <div class="container contacts__container">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="https://03.com.ru/" class="item__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+                /
+            </li>
+            <li class="breadcrumbs__item">
+                Контакты
+            </li>
+        </ul>
+        <h1 class="title contacts__title">Телефон платной скорой помощи</h1>
+
+        <div class="contacts__content">
+            <div class="contacts__info">
+                <div class="info__left">
+                    <div class="left__item">
+                        <img src="assets/components/rma/assets/images/new/contacts/addres.svg" alt="адрес" class="item__icon">
+                        <p class="item__text">111123, г.Москва, шоссе Энтузиастов, д.31, стр.27</p>
+                    </div>
+                <div class="left__item">
+                    <img src="assets/components/rma/assets/images/new/contacts/addres.svg" alt="адрес" class="item__icon">
+                    <p class="item__text">107078, г.Москва, улица Каланчевская, д.31, стр.13</p>
+                </div>
+                
+                </div>
+                <div class="info__right">
+                    <a href="mailto:mmd03@bk.ru" class="right__link">
+                        <img src="assets/components/rma/assets/images/new/contacts/mail.svg" alt="адрес" class="link__img">
+                        mmd03@bk.ru
+                    </a>
+                    <a href="tel:+74957553503" class="right__link">
+                        <img src="assets/components/rma/assets/images/new/contacts/phone.svg" alt="телефон" class="link__img">
+                        8-495-755-35-03
+                    </a>
+                    <button class="btn right__btn">Заказать звонок</button>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A87f25222739fce476e7f34f6e788336c7d776c76fddfc66c130d1cbb4896cfd2&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section callback">
+    <div class="container callback__container">
+
+        <h2 class="callback__title">
+            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ОПЕРАТИВНУЮ ПОМОЩЬ
+        </h2>
+
+        <form method="post" class="callback__form">
+
+            <input type="text" name="nospam" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__block">
+                <input type="text" class="form__inp" name="name"
+                       value="" placeholder="Имя" required>
+                <img src="assets/components/rma/assets/images/new/form/name.svg"
+                     alt="имя" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="tel" class="form__inp" name="phone"
+                       value="" placeholder="Телефон" required>
+                <img src="assets/components/rma/assets/images/new/phone.svg"
+                     alt="телефон" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="email" class="form__inp" name="email"
+                       value="" placeholder="E-mail" required>
+                <img src="assets/components/rma/assets/images/new/form/email.svg"
+                     alt="e-mail" class="form__img">
+            </div>
+
+            <div class="form__block-btn">
+
+                <input type="submit"
+                       name="order-submit"
+                       value="отправить"
+                       class="btn form__btn">
+
+                <p class="callback__text">
+                    Нажимая на кнопку отправить, <br>
+                    я даю согласие на
+                    <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text__link">
+                        обработку данных
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+    </div>
+</section>
+<section class="section service-about">
+    <div class="container service-about__container" itemscope itemtype="https://schema.org/Article">
+        <a name="about"></a>
+        <h2 class="service-about__title">Качественное медицинское обслуживание уже с первого звонка!</h2>
+        <div class="service-about__text" itemprop="description">
+            <p>1. Работаем без автоответчиков и роботов.</p>
+<p>2. Живое общение с профессиональным диспетчером на линии.</p>
+<p>3. Информирование о действующих акциях.</p>
+<p>4. Выполнение обещаний - перезванием в нужное время, не забываем о договоренностях.</p>
+<h2>Как работаем с физическими лицами?</h2>
+<p>1. Чтобы <strong>вызвать частную скорую помощь</strong> или врача на дом, заказать платную госпитализацию, заполните форму обратной связи. Если ситуация экстренная, звоните по контактному телефону.</p>
+<p>2. Оператор  уточнит ситуацию, задаст определенные вопросы для подбора необходимой бригады, сориентирует по цене.</p>
+<p>3. После внесения 100% оплаты через систему <a href="https://clck.ru/HxbLa"><strong>Онлайн-оплата</strong></a>, компания приступит к выполнение медицинской услуги.</p>
+<h2>Как работаем с юридическими лицами?</h2>
+<p>1. Чтобы заказать медицинский осмотр водителей или услугу дежурство врача/скорой помощи на мероприятие, заполните форму обратной связи.</p>
+<p>2. Оператор перезвонит в течение 10 минут, ответит на все вопросы, согласует условия сотрудничества.</p>
+<p>3. После согласования, необходимо выслать реквизиты компании на официальную почту  <strong><a href="mailto:mmd03@bk.ru">mmd03@bk.ru</a></strong>, чтобы специалисты договорного отдела приступили к подготовке договора. </p>
+<p>4. После его подписания и официальной оплаты, компания приступает к оказанию медицинской услуги. Оплатить услуги компании можно онлайн или наличными в кассу компании. Своевременная оплата - гарантия оказания услуги.</p>
+<p>Нужен <strong>номер детской скорой помощи</strong> или телефон<strong> платной скорой помощи в Москве</strong>? Запишите: <strong><a href="tel:+74957553503">+7(495)755-35-03</a></strong></p>
+        </div>
+        <div class="service-about__images">
+            <img src="assets/components/rma/assets/images/contacts/about/1.jpg" alt="" class="images__item">
+            <img src="assets/components/rma/assets/images/contacts/about/2.jpg" alt="" class="images__item">
+            <img src="assets/components/rma/assets/images/contacts/about/3.jpg" alt="" class="images__item">
+        </div>
+    </div>
+</section>
+<section class="section reviews-page reviews-page-no-padding">
+    <div class="container reviews__container">
+        <h1 class="title license__title">Отзывы</h1>
+<div class="reviews__slider-wrap">
+    <button class="arrows__btn arrows__btn--left">
+        <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+    </button>
+    <button class="arrows__btn arrows__btn--right">
+        <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+    </button>
+    <div class="reviews__slider">
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" class="slide__img">
+        </div>    
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>     
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>  
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+        <div class="reviews__slide">
+            <img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
+        </div>
+    </div>
+</div>
+    </div>
+    
+</section>
+
