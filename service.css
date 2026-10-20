@@ -1,0 +1,59 @@
+.breadcrumbs{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:24px 0;color:var(--muted);font-size:12px;grid-column:1/-1}.breadcrumbs li:last-child{color:var(--ink)}.service-hero__container{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch}.service-hero__text{padding:52px 44px;background:var(--pale);border-radius:18px 0 0 18px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.service-hero__text h1{font-size:clamp(36px,4.2vw,54px);margin-bottom:28px;max-width:480px}.service-hero__text .text__price{font-size:30px;margin-bottom:28px}.service-hero__img{width:100%;height:100%;min-height:440px;object-fit:cover;border-radius:0 18px 18px 0}.service-about{padding:76px 0}.service-about__container{display:block}.service-about__title{font-size:34px;position:static;margin-bottom:30px}.service-about__text{max-width:none}.service-about__text h2{font-size:28px;letter-spacing:-.025em;margin-bottom:24px;margin-top:42px}.service-about__text h2:first-child{margin-top:0}.service-about__text p{color:var(--muted);line-height:1.8}.service-about__text a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}.service-about__text>p:last-child{margin-top:30px;margin-bottom:0;padding:26px 30px;border-left:3px solid var(--accent);border-radius:0 10px 10px 0;background:var(--pale);color:var(--ink)}.reviews-page{padding:60px 0 70px;background:var(--pale)}.service-reviews-heading{padding-right:120px}.service-reviews-heading h2{margin-bottom:12px}.service-reviews-heading p{color:var(--muted);margin-bottom:30px}.reviews__slider-wrap{position:relative}.reviews__slider{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#b8bdd7 transparent;padding:8px 0 22px}.reviews__slide{flex:0 0 calc((100% - 60px)/4);scroll-snap-align:start;background:white;border:1px solid var(--line);padding:16px;border-radius:12px}.reviews__slide .slide__img{width:100%;height:300px;object-fit:contain}.review-arrow{position:absolute;top:-85px;right:0;width:44px;height:44px;border:1px solid #d3d7e5;border-radius:50%;background:white;color:var(--blue);font-size:23px}.review-prev{right:54px}.review-arrow:hover{background:var(--blue);color:white}.review-arrow:disabled{opacity:.35;cursor:default}.service-page .footer{background:white}
+@media(max-width:1000px){.service-about__container{display:block}.service-hero__text{padding:36px 28px}.service-hero__text h1{font-size:42px}.reviews__slide{flex-basis:calc((100% - 40px)/3)}}
+@media(max-width:700px){.service-hero__container{grid-template-columns:1fr}.service-hero__text{border-radius:16px 16px 0 0;padding:32px 26px}.service-hero__img{height:250px;min-height:0;border-radius:0 0 16px 16px;object-position:center}.service-hero__text h1{font-size:38px}.service-about{padding:44px 0}.service-about__container{display:block}.service-about__title{position:static;font-size:32px;margin-bottom:28px}.service-about__text h2{font-size:25px}.reviews__slide{flex-basis:calc((100% - 20px)/2)}.reviews__slide .slide__img{height:245px}.reviews-page{padding:42px 0}.service-reviews-heading{padding-right:100px}.service-reviews-heading h2{font-size:32px}.service-reviews-heading p{font-size:13px}.review-arrow{top:-94px}}
+@media(max-width:440px){.breadcrumbs{font-size:11px;gap:7px;margin:18px 0}.service-hero__text h1{font-size:34px}.service-hero__text .text__price{font-size:26px}.service-hero__img{height:220px}.service-about__text>p:last-child{padding:22px}.reviews__slide{flex-basis:78%;padding:12px}.reviews__slide .slide__img{height:300px}}
+
+/* Characters keep their natural width, so typing never shifts the page. */
+.typing-char{opacity:0}
+.typing-char.typed{opacity:1}
+.typing-cursor{box-shadow:2px 0 0 var(--accent)}
+.typing-readable{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media(prefers-reduced-motion:reduce){.typing-char{opacity:1}.typing-cursor{box-shadow:none}}
+@media print{.typing-char{opacity:1}.typing-cursor{box-shadow:none}}
+
+/* First-screen entrance, replayed on page load. */
+@keyframes service-photo-enter{
+  from{opacity:0;transform:translateX(110px) scale(1.035)}
+  to{opacity:1;transform:translateX(0) scale(1)}
+}
+@keyframes service-title-enter{
+  from{opacity:0;transform:translateY(28px);clip-path:inset(0 0 100% 0);filter:blur(5px)}
+  to{opacity:1;transform:translateY(0);clip-path:inset(0);filter:blur(0)}
+}
+@keyframes service-detail-enter{
+  from{opacity:0;transform:translateY(18px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@media(prefers-reduced-motion:no-preference){
+  .service-hero{overflow:hidden;overflow:clip}
+  .service-hero__img{animation:service-photo-enter 1s cubic-bezier(.16,1,.3,1) .12s both}
+  .service-hero__text .hero__eyebrow{animation:service-detail-enter .65s ease-out .08s both}
+  .service-hero__text h1{animation:service-title-enter .95s cubic-bezier(.16,1,.3,1) .2s both}
+  .service-hero__text .text__block{animation:service-detail-enter .7s cubic-bezier(.16,1,.3,1) .55s both}
+  .service-hero__text .btns__btn{animation:service-detail-enter .65s cubic-bezier(.16,1,.3,1) .75s backwards}
+  .service-hero__text .btns__link{animation:service-detail-enter .65s cubic-bezier(.16,1,.3,1) .88s backwards}
+}
+
+.service-about__text a{
+  border-radius:3px;
+  text-decoration-thickness:1px;
+  transition:color .2s ease,background-color .2s ease,text-decoration-color .2s ease,box-shadow .2s ease;
+}
+.service-about__text a:hover,.service-about__text a:focus-visible{
+  color:#26377f;
+  background-color:#e7ebfc;
+  text-decoration-color:#5965c7;
+  box-shadow:0 0 0 3px #e7ebfc;
+}
+
+/* Fade into the text panel, keeping the open door inside the visible crop. */
+.service-hero__container{background:var(--pale);border-radius:18px}
+.service-hero__container .breadcrumbs{background:#fff;margin-top:0;padding-top:24px;padding-bottom:24px;margin-bottom:0}
+.service-hero__img{
+  object-position:right center;
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 22%);
+  mask-image:linear-gradient(to right,transparent 0%,#000 22%);
+}
+@media(max-width:700px){
+  .service-hero__img{height:auto;min-height:0;aspect-ratio:3/2;object-fit:contain;object-position:right center}
+}

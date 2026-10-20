@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <base href="https://03.com.ru/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Дежурство скорой на массовых мероприятиях - MMD &#128657;</title>
+    <meta name="description" content="Дежурство скорой медицинской помощи на массовых мероприятиях в Москве и Московской области. Заказать медицинское сопровождение спортивных мероприятий">
+    <meta name="yandex-verification" content="7d4bbf02a748f1a2" />
+    <meta property="og:title" content="03.com.ru"/>
+    <meta property="og:description" content="Московская скорая помощь"/>
+    <meta property="og:image" content="assets/components/rma/assets/images/favicon.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content= "https://03.com.ru"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/slick.css">
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />-->
+    <link rel="stylesheet" href="assets/components/rma/assets/styles/main.css">
+    <link rel="icon" type="image/png" href="assets/components/rma/assets/images/favicon.png">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(29255260, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+       });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <a href="https://03.com.ru/" class="header__logo">
+            <img src="assets/components/rma/assets/images/logo.jpg" alt="moscow medical department" class="logo__img">
+        </a>
+        <ul class="header__menu">
+            <li class="menu__item">
+                <a href="akczii/" class="item__link">Акции</a>
+            </li>
+            <li class="menu__item">
+                <a href="uslugi/" class="item__link">Услуги</a>
+            </li>
+            <li class="menu__item">
+                <a href="brigadyi/" class="item__link">Бригады</a>
+            </li>
+            <li class="menu__item">
+                <a href="novosti/2020/" class="item__link">Новости</a>
+            </li>
+            <li class="menu__item">
+                <a href="kontaktyi" class="item__link">Контакты</a>
+            </li>
+        </ul>
+        <a onclick="ym(29255260, 'reachGoal', 'headerPhone'); return true;" href="tel:+74957553503" class="header__phone">
+            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+            8-495-755-35-03
+        </a>
+        <button class="header__hamburger">
+            <img src="assets/components/rma/assets/images/new/hamburger.svg" alt="меню" class="hamburger__img">
+        </button>
+        <button class="header__exit-popup"> &times; </button>
+    </div>
+</header>
+<section class="section hero">
+    <div class="container hero__container">
+        <div class="hero__text">
+            <!-- <p class="text__text">скидка на услугу</p> -->
+            <h1 class="text__title">Медицинское сопровождение мероприятий</h1>
+            <p class="text__price">от 2 300 ₽/час</p>
+            <div class="text__btns">
+                <button onclick="ym(29255260, 'reachGoal', 'heroBtn'); return true;" class="btn btns__btn">Заказать</button>
+                <a href="akczii/" class="btn btns__link">
+                    подробнее
+                </a>
+                <a href="akczii/" class="btn btns__link btns__link--phone">
+                    <img src="assets/components/rma/assets/images/new/arrow.svg" alt="подробнее" class="btn__img">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section about">
+    <div class="container about__container">
+        <div class="about__img">
+            <picture>
+                <source srcset="assets/components/rma/assets/images/final/index/o_nas.jpg" media="(min-width: 576px)">
+                <img src="assets/components/rma/assets/images/final/pixel.jpg" alt="о компании" class="img__img">
+            </picture>
+        </div>
+        <div class="about__bg"></div>
+        <div class="about__text">
+            <h2 class="text__title">о нас</h2>
+            <p class="text__text">
+                <b>Moscow Medical Department</b> - московская частная скорая помощь доступная каждому.
+            </p>
+            <p class="text__text">
+                <b>Широкий спектр услуг:</b> от выезда скорой медпомощи и врача на дом до предрейсовых осмотров водителей.
+            </p>
+            <p class="text__text">
+                <b>Наша цель</b> - помогать людям, используя опыт зарубежных коллег и европейское оборудование. <br> 
+                Работаем с самыми тяжелыми ситуациями на благо вашего здоровья!
+            </p>
+            <a href="o-kompanii" class="btn text__btn">
+                подробнее
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section license">
+    <div class="container license__container">
+        <div class="license__bg"></div>
+        <h2 class="text__title">Лицензии</h2>
+        <div class="license__text">
+            <p class="text__text">
+                Мы профессионалы не только на словах, но и на деле - действующая лицензия на медицинскую деятельность, на деятельность по обороту наркотических средств и психотропных веществ и их прекурсов, опытные врачи с  дипломами и сертификатами.
+            </p>
+            <p class="text__text">
+                Доверьте нам медицинскую безопасность родных и репутацию вашего бизнеса!  
+            </p>
+            <a href="liczenzii" class="btn text__btn">
+                Подробнее
+            </a>
+        </div>
+        <div class="license__slider">
+            <a href="kontaktyi" class="arrows__btn arrows__btn--left">
+                <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+            </a>
+            <a href="kontaktyi" class="arrows__btn arrows__btn--right">
+                <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+            </a>
+            <div class="slider__slides">
+                <div class="slides__slide">
+                    <picture class="slide__picture">
+                        <source srcset="assets/components/rma/assets/images/licenses/hero/mobile/1.jpg" media="(max-width: 576px)" class="slide__source">
+                        <img src="assets/components/rma/assets/images/licenses/hero/1.jpg" alt="лицензия-1" class="slide__img">
+                    </picture>
+                </div>
+                <div class="slides__slide">
+                    <picture class="slide__picture">
+                        <source srcset="assets/components/rma/assets/images/licenses/hero/mobile/3.jpg" media="(max-width: 576px)" class="slide__source">
+                        <img src="assets/components/rma/assets/images/licenses/hero/3.jpg" alt="лицензия-3" class="slide__img">
+                    </picture>
+                </div>
+                <div class="slides__slide">
+                    <picture class="slide__picture">
+                        <source srcset="assets/components/rma/assets/images/licenses/hero/mobile/4.jpg" media="(max-width: 576px)" class="slide__source">
+                        <img src="assets/components/rma/assets/images/licenses/hero/4.jpg" alt="лицензия-3" class="slide__img">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section faq">
+    <div class="container faq__container">
+        <div class="faq__bg"></div>
+        <div class="faq__img">
+            <picture>
+                <source srcset="assets/components/rma/assets/images/final/index/aviaperevozka.jpg" media="(min-width: 576px)">
+                <img src="assets/components/rma/assets/images/final/pixel.jpg" alt="Полезно знать" class="img__img">
+            </picture>
+            <!--<img src="assets/components/rma/assets/images/final/index/aviaperevozka.jpg" alt="Полезно знать" class="img__img">-->
+        </div>
+        <div class="faq__text">
+            <h2 class="text__title">Полезно знать</h2>
+            <p class="text__text">
+                Как заказать скорую на мероприятие?
+                <br>
+                Как помочь больному до приезда скорой?
+                <br>
+                Как вызвать врача на дом? 
+                <br>
+                Как избежать штрафов на предприятии?
+                <br>
+                Необходимо медицинское сопровождение
+                <br>
+                спортивных мероприятий?
+                <br>
+                Зачем здравпункт в организации?
+                <br>
+                Как выбрать стационар для лечения?
+            </p>
+            <p class="text__text">
+                Ответы на эти вопросы помогут <br> вам в любой экстренной ситуации. 
+            </p>
+            <a href="polezno-znat/" class="btn text__btn">
+                Подробнее
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section callback">
+    <div class="container callback__container">
+
+        <h2 class="callback__title">
+            ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ОПЕРАТИВНУЮ ПОМОЩЬ
+        </h2>
+
+        <form method="post" class="callback__form">
+
+            <input type="text" name="nospam" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form__block">
+                <input type="text" class="form__inp" name="name"
+                       value="" placeholder="Имя" required>
+                <img src="assets/components/rma/assets/images/new/form/name.svg"
+                     alt="имя" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="tel" class="form__inp" name="phone"
+                       value="" placeholder="Телефон" required>
+                <img src="assets/components/rma/assets/images/new/phone.svg"
+                     alt="телефон" class="form__img">
+            </div>
+
+            <div class="form__block">
+                <input type="email" class="form__inp" name="email"
+                       value="" placeholder="E-mail" required>
+                <img src="assets/components/rma/assets/images/new/form/email.svg"
+                     alt="e-mail" class="form__img">
+            </div>
+
+            <div class="form__block-btn">
+
+                <input type="submit"
+                       name="order-submit"
+                       value="отправить"
+                       class="btn form__btn">
+
+                <p class="callback__text">
+                    Нажимая на кнопку отправить, <br>
+                    я даю согласие на
+                    <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text__link">
+                        обработку данных
+                    </a>
+                </p>
+
+            </div>
+
+        </form>
+    </div>
+</section>
+<section class="section reviews">
+    <div class="container license__container">
+        <div class="license__bg license__bg--gray"></div>
+        <h2 class="text__title text__title--blue">Отзывы</h2>
+        <div class="license__text">
+            <p class="text__text text__text--black">
+                Нам доверяют более 135 федеральных <br> компаний: спортивные комплексы, городские парки, ночные клубы и другие.
+            </p>
+            <p class="text__text text__text--black">
+                Высокую эффективность и качество обслуживания оценили организаторы: <br> Park Live, Пикник “Афиши”, Московского международного кинофестиваля, резиденты Comedy Club и известные российские спортсмены.
+            </p>
+            <a href="otzyivyi" class="btn text__btn">
+                Подробнее
+            </a>
+        </div>
+        <div class="license__slider">
+            <a href="kontaktyi" class="arrows__btn arrows__btn--left">
+                <img src="assets/components/rma/assets/images/new/arrow-left-white.svg" alt="слайд влево" class="arrow__img">
+            </a>
+            <a href="kontaktyi" class="arrows__btn arrows__btn--right">
+                <img src="assets/components/rma/assets/images/new/arrow-right-white.svg" alt="слайд вправо" class="arrow__img">
+            </a>
+            <div class="slider__slides">
+                <div class="slides__slide">
+                    <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="лицензия-1" class="slide__img">
+                </div>
+                <div class="slides__slide">
+                    <img src="assets/components/rma/assets/images/reviews/hero/1.jpg" alt="лицензия-1" class="slide__img">
+                </div>
+                <div class="slides__slide">
+                    <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="лицензия-1" class="slide__img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="bg"></div>
+
+
+
+
+<div class="popup" id="callback-popup">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Обратный звонок</h2>
+
+    <form method="post" class="popup__form" id="callback-form">
+
+        <input type="hidden" name="popup-submit" value="1">
+
+        <input type="text"
+               name="nospam"
+               value=""
+               style="display:none"
+               tabindex="-1"
+               autocomplete="off">
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/name.svg"
+                 alt="имя"
+                 class="form__icon">
+
+            <input type="text"
+                   class="row__inp"
+                   name="name"
+                   value=""
+                   placeholder="Имя"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/phone.svg"
+                 alt="телефон"
+                 class="form__icon">
+
+            <input type="tel"
+                   class="row__inp"
+                   name="phone"
+                   value=""
+                   placeholder="Телефон"
+                   id="form-buy-phone"
+                   required>
+        </div>
+
+        <div class="form__row">
+            <img src="assets/components/rma/assets/images/new/popup/email.svg"
+                 alt="email"
+                 class="form__icon">
+
+            <input type="email"
+                   class="row__inp"
+                   name="email"
+                   value=""
+                   placeholder="E-mail"
+                   id="popup-email"
+                   required>
+        </div>
+
+        <div class="popup__message" id="callback-error"
+             role="alert" style="display:none;"></div>
+
+        <p class="form__text">
+            Нажимая на кнопку отправить, <br>
+            я даю согласие
+            <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text__link">
+                на обработку данных
+            </a>
+        </p>
+
+        <button type="submit" class="btn form__btn" id="callback-submit">
+            ОТПРАВИТЬ
+        </button>
+
+    </form>
+</div>
+
+
+<div class="popup popup--thanks" id="callback-success">
+
+    <button type="button" class="popup__exit">
+        <img src="assets/components/rma/assets/images/new/popup/exit.svg"
+             alt="Закрыть окно"
+             class="exit__img">
+    </button>
+
+    <h2 class="popup__title">Спасибо за заявку!</h2>
+
+    <div class="popup--thanks__content">
+        <p>Ваша заявка успешно отправлена.</p>
+        <p>Мы скоро с вами свяжемся!</p>
+
+        <button type="button" class="btn form__btn popup--thanks__btn">
+            ЗАКРЫТЬ
+        </button>
+    </div>
+
+</div>
+<div class="popup-menu">
+    <ul class="popup-menu__menu">
+        <li class="menu__item">
+            <a href="akczii/" class="item__link">Акции</a>
+        </li>
+        <li class="menu__item">
+            <a href="uslugi/" class="item__link">Услуги</a>
+        </li>
+        <li class="menu__item">
+            <a href="brigadyi/" class="item__link">Бригады</a>
+        </li>
+        <li class="menu__item">
+            <a href="novosti/2020/" class="item__link">Новости</a>
+        </li>
+        <li class="menu__item">
+            <a href="kontaktyi" class="item__link">Контакты</a>
+        </li>
+    </ul>
+</div>
+        <footer class="footer">
+            <div class="container footer__container">
+                <ul class="footer__menu">
+                    <li class="menu__item">
+                        <a href="o-kompanii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/about.svg" alt="О компании" class="link__icon">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="liczenzii" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/license.svg" alt="Лицензии" class="link__icon">
+                            Лицензии
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="otzyivyi" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/reviews.svg" alt="Отзывы" class="link__icon">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="polezno-znat/" class="item__link">
+                            <img src="assets/components/rma/assets/images/footerIcons/faq.svg" alt="Полезно знать" class="link__icon">
+                            Полезно знать
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a onclick="ym(29255260, 'reachGoal', 'footerMail'); return true;" href="mailto:mmd03@bk.ru" class="footer__mail">
+                            <img src="assets/components/rma/assets/images/new/form/email.svg" alt="mail" class="mail__icon">
+                            mmd03@bk.ru
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="tel:+74957553503" class="footer__phone">
+                            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+                            8-495-755-35-03
+                        </a>
+                    </li>
+                </ul>
+                <a onclick="ym(29255260, 'reachGoal', 'footerBuy'); return true;" href="oplata" class="btn footer__btn">оплатить онлайн</a>
+                <button class="btn footer__btn">Заказать звонок</button>
+                <div class="footer__bottom">
+                    <p class="footer__copy">© 2013-2025, <a href="https://03.com.ru/" class="copy__link">www.03.com.ru</a> Все права защищены. Любое использование
+                        материалов сайта допускается только по согласованию с руководством сайта, с обязательной
+                        гиперссылкой на сайт <a href="https://03.com.ru/" class="copy__link">www.03.com.ru.</a>
+                        <br>Незаконное использование преследуется по закону. Все рекомендации по лечению даются только при
+                        очной консультации специалистов. Оставаясь на сайте, вы даёте согласие на <a href="assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" class="copy__link">обработку
+                        персональных данных.</a></p>
+                </div>
+            </div>
+        </footer>
+    <script src="assets/components/rma/assets/scripts/jquery.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/slick.min.js"></script>
+    <script src="assets/components/rma/assets/scripts/main.min.js"></script>
+    <!--<script defer src="assets/components/rma/assets/scripts/send-form-to-telegram.js"></script>-->
+</body>
+
+</html>

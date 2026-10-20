@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="178" viewBox="0 0 350 89" role="img" aria-label="MMD — Moscow Medical Department">
+<rect width="350" height="89" fill="#ed3038"/>
+<defs>
+<path id="star" d="M38 10H51V29L65 16L74 25L60 38H79V51H60L74 65L65 74L51 60V79H38V60L24 74L15 65L29 51H10V38H29L15 25L24 16L38 29Z"/>
+<path id="letters" d="M90 60V11H110L129 34L149 11H169V60H155V28L134 53H125L104 28V60ZM175 60V11H195L214 34L234 11H254V60H240V28L219 53H210L189 28V60ZM261 11H305Q324 11 324 29V42Q324 60 305 60H261ZM275 24V47H302Q311 47 311 39V32Q311 24 302 24Z"/>
+</defs>
+<use href="#star" fill="white" stroke="white" stroke-width="3"/>
+<use href="#star" fill="white" stroke="#ed3038" stroke-width="1"/>
+<path d="M45 23V67M45 29C60 29 36 36 39 41C42 46 57 43 48 50C38 55 41 60 48 61M43 65L45 70L47 65" fill="none" stroke="#ed3038" stroke-width="2.1" stroke-linecap="round"/>
+<use href="#letters" fill="white" fill-rule="evenodd" stroke="white" stroke-width="3"/>
+<use href="#letters" fill="white" fill-rule="evenodd" stroke="#ed3038" stroke-width=".8"/>
+<text x="89" y="79" fill="white" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="10.3" textLength="237" lengthAdjust="spacingAndGlyphs">MOSCOW MEDICAL DEPARTMENT</text>
+<circle cx="335" cy="15" r="5" fill="none" stroke="white" stroke-width=".8"/>
+<text x="335" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="white">©</text>
+</svg>

@@ -1,0 +1,25 @@
+const fs=require('fs');
+const root='homepage-redesign/';
+let html=fs.readFileSync(root+'original-reference.html','utf8');
+html=html.replace(/<base[^>]+>/,'').replace(/<script\b[\s\S]*?<\/script>/g,'').replace(/<!--[^]*?-->/g,'').replace(/\s+onclick="[^"]*"/g,'');
+html=html.replace(/<link[^>]*(?:stylesheet)[^>]*>/g,'');
+html=html.replace('</head>','<link rel="stylesheet" href="styles.css">\n<script src="app.js" defer></script>\n</head>');
+html=html.replace(/href="(?!https:|tel:|mailto:|#|styles.css)([^"\s]+)"/g,(_,p)=>`href="https://03.com.ru/${p}"`);
+html=html.replace(/<picture>\s*<source srcset="([^"]+)"[^>]+>\s*<img src="[^"]+"([^>]+)>\s*<\/picture>/g,'<img src="$1"$2>');
+html=html.replace('<section class="section hero">','<main id="main"><section class="section hero">').replace('<div class="bg"></div>','</main><div class="bg" hidden></div>');
+html=html.replace('<body>','<body><a class="skip-link" href="#main">Перейти к содержанию</a>');
+html=html.replace('<ul class="header__menu">','<ul class="header__menu" aria-label="Основное меню">');
+html=html.replace('<button class="header__hamburger">','<button class="header__hamburger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">');
+html=html.replace('<div class="popup-menu">','<nav class="popup-menu" id="mobile-menu" aria-label="Мобильное меню" hidden>');
+html=html.replace('</ul>\n</div>\n        <footer','</ul>\n</nav>\n        <footer');
+html=html.replace('<div class="popup" id="callback-popup">','<div class="popup" id="callback-popup" role="dialog" aria-modal="true" aria-label="Обратный звонок" hidden>');
+html=html.replace('<div class="popup popup--thanks" id="callback-success">','<div class="popup popup--thanks" id="callback-success" hidden>');
+html=html.replace(/<a href="https:\/\/03.com.ru\/kontaktyi" class="arrows__btn arrows__btn--(left|right)">[^]*?<\/a>/g,'');
+html=html.replace(/<input type="(text|tel|email)"([^>]*?)placeholder="([^"]+)"/g,'<input type="$1"$2aria-label="$3" placeholder="$3"');
+html=html.replace(/<button type="button" class="popup__exit">/g,'<button type="button" class="popup__exit" aria-label="Закрыть окно">');
+html=html.replace('class="section callback"','class="section callback" id="request"');
+html=html.replace(/<form method="post"/g,'<form');
+html=html.replace('<p class="text__price">','<p class="hero__eyebrow">Moscow Medical Department</p><p class="text__price">');
+fs.writeFileSync(root+'index.html',html);
+// The original copy is retained as a text reference, never run with production tracking.
+fs.renameSync(root+'original-reference.html',root+'original-reference.txt');
