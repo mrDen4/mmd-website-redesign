@@ -5,7 +5,7 @@ function updateReviewButtons(){prevReview.disabled=reviewTrack.scrollLeft<2;next
 prevReview.addEventListener('click',()=>reviewTrack.scrollBy({left:-reviewTrack.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
 nextReview.addEventListener('click',()=>reviewTrack.scrollBy({left:reviewTrack.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
 reviewTrack.addEventListener('scroll',updateReviewButtons);window.addEventListener('resize',updateReviewButtons);updateReviewButtons();
-document.querySelectorAll('.reviews__slide').forEach((slide,i)=>{const img=slide.querySelector('img');img.loading='lazy';const button=document.createElement('button');button.type='button';button.className='image-open';button.setAttribute('aria-label','Открыть отзыв '+(i+1));button.append(img);slide.append(button);button.addEventListener('click',()=>{openImageViewer(img)})});
+document.querySelectorAll('.reviews__slide img').forEach(img=>{img.loading='lazy'});
 
 // Reveal text in place: original wrapping, links and the phone panel stay intact.
 (() => {
@@ -94,13 +94,6 @@ document.querySelectorAll('.reviews__slide').forEach((slide,i)=>{const img=slide
   motion.addEventListener('change', event => { if (event.matches) revealAll(); });
   window.addEventListener('beforeprint', revealAll);
 })();
-
-// A persistent, keyboard-accessible action below the enlarged review.
-const reviewDetails = document.createElement('a');
-reviewDetails.className = 'btn review-details';
-reviewDetails.href = 'https://03.com.ru/otzyivyi';
-reviewDetails.textContent = 'Подробнее';
-viewer.append(reviewDetails);
 
 // Animate only the visible value; structured data and the accessible price stay final.
 (() => {

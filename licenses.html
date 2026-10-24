@@ -110,16 +110,7 @@
                        value="Отправить"
                        class="btn form__btn">
 
-                <p class="callback__text">
-                    Нажимая на кнопку отправить, <br>
-                    я даю согласие на
-                    <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="text__link">
-                        обработку данных
-                    </a>
-                </p>
+                <label class="callback__text consent"><input type="checkbox" name="personal-data-consent" value="1" required><span>Я даю согласие на <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" rel="noopener noreferrer" class="text__link">обработку моих персональных данных</a></span></label>
 
             </div>
 
@@ -225,16 +216,7 @@
         <div class="popup__message" id="callback-error"
              role="alert" style="display:none;"></div>
 
-        <p class="form__text">
-            Нажимая на кнопку отправить, <br>
-            я даю согласие
-            <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="text__link">
-                на обработку данных
-            </a>
-        </p>
+        <label class="form__text consent"><input type="checkbox" name="personal-data-consent" value="1" required><span>Я даю согласие на <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" rel="noopener noreferrer" class="text__link">обработку моих персональных данных</a></span></label>
 
         <button type="submit" class="btn form__btn" id="callback-submit">
             Отправить

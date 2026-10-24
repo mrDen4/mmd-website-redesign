@@ -318,3 +318,21 @@ body .form__btn{font-size:17px}
 /* Avoid horizontal scrolling when narrow windows reserve a scrollbar. */
 body{min-width:0}
 @media(max-width:359px){.hero__text,.service-hero__text{padding-inline:14px}}
+
+/* Align popup consent with the full-width input fields. */
+#callback-popup .form__text.consent{width:100%;max-width:none;margin:14px 0;justify-content:flex-start;text-align:left;text-wrap:wrap}
+#callback-popup .form__text.consent span{flex:1;min-width:0}
+
+/* Cookie notice sits below menus and modal dialogs. */
+.cookie-notice{position:fixed;z-index:25;bottom:20px;left:50%;transform:translateX(-50%);width:min(1100px,calc(100% - 32px));max-height:65dvh;overflow:auto;display:flex;align-items:center;gap:28px;padding:24px 28px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 48px #252b4633;animation:cookie-appear .45s ease both}
+.cookie-notice p{margin:0;font-size:13px;line-height:1.65;color:var(--muted)}
+.cookie-notice .cookie-accept{flex-shrink:0;width:160px;min-height:50px}
+.cookie-accept:hover,.cookie-accept:focus-visible{background:#35418f;border-color:#35418f;box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+@keyframes cookie-appear{from{opacity:0;transform:translate(-50%,18px)}to{opacity:1;transform:translate(-50%,0)}}
+@media(max-width:600px){.cookie-notice{bottom:12px;padding:18px;gap:16px;flex-direction:column;align-items:stretch}.cookie-notice p{font-size:12px}.cookie-notice .cookie-accept{align-self:center}}
+@media(prefers-reduced-motion:reduce){.cookie-notice{animation:none}}
+
+/* Translucent cookie panel with a readable fallback. */
+.cookie-notice{background:rgba(240,243,252,.62);border-color:rgba(255,255,255,.65);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.cookie-notice p{color:var(--ink)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.cookie-notice{background:rgba(255,255,255,.96)}}

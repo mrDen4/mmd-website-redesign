@@ -34,9 +34,3 @@
   motion.addEventListener('change', event => { if (event.matches) finish(); });
   window.addEventListener('beforeprint', finish);
 })();
-
-const homeDetails=document.createElement('a');
-homeDetails.className='btn review-details';
-homeDetails.textContent='Подробнее';
-viewer.append(homeDetails);
-document.querySelectorAll('.slides__slide').forEach(slide=>{slide.addEventListener('click',()=>{homeDetails.href=slide.closest('.reviews')?'https://03.com.ru/otzyivyi':'https://03.com.ru/liczenzii'} ,true)});
