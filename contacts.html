@@ -29,6 +29,7 @@
 <script src="pages.js" defer></script>
 <link rel="stylesheet" href="responsive.css">
 <link rel="stylesheet" href="pages.css">
+<link rel="stylesheet" href="contacts.css">
 </head>
 <body class="inner-page page-contacts"><a class="skip-link" href="#main">Перейти к содержанию</a>
 <header class="header">
@@ -64,52 +65,20 @@
     </div>
 </header>
 <main id="main">
-<section class="section contacts">
-    <div class="container contacts__container">
-        <ul class="breadcrumbs">
-            <li class="breadcrumbs__item">
-                <a href="index.html" class="item__link">Главная</a>
-            </li>
-            <li class="breadcrumbs__item">
-                /
-            </li>
-            <li class="breadcrumbs__item">
-                Контакты
-            </li>
-        </ul>
-        <h1 class="title contacts__title">Контакты</h1>
-
-        <div class="contacts__content">
-            <div class="contacts__info">
-                <div class="info__left">
-                    <div class="left__item">
-                        <img src="assets/components/rma/assets/images/new/contacts/addres.svg" alt="адрес" class="item__icon">
-                        <p class="item__text">111123, г.Москва, шоссе Энтузиастов, д.31, стр.27</p>
-                    </div>
-                <div class="left__item">
-                    <img src="assets/components/rma/assets/images/new/contacts/addres.svg" alt="адрес" class="item__icon">
-                    <p class="item__text">107078, г.Москва, улица Каланчевская, д.31, стр.13</p>
-                </div>
-                
-                </div>
-                <div class="info__right">
-                    <a href="mailto:mmd03@bk.ru" class="right__link">
-                        <img src="assets/components/rma/assets/images/new/contacts/mail.svg" alt="адрес" class="link__img">
-                        mmd03@bk.ru
-                    </a>
-                    <a href="tel:+74957553503" class="right__link">
-                        <img src="assets/components/rma/assets/images/new/contacts/phone.svg" alt="телефон" class="link__img">
-                        8-495-755-35-03
-                    </a>
-                    <button class="btn right__btn" data-callback>Заказать звонок</button>
-                </div>
-            </div>
-            <div class="contacts__map"><img src="assets/contacts-map.png" alt="Карта Москвы с точками скорой помощи и госпитализации MMD"><div class="map-caption"><span><i></i> Скорая помощь</span><span><i></i> Госпитализация</span><a href="https://yandex.ru/maps/?um=constructor%3A87f25222739fce476e7f34f6e788336c7d776c76fddfc66c130d1cbb4896cfd2&amp;source=constructorLink" target="_blank" rel="noopener">Открыть карту ↗</a></div>
-                
-            </div>
-        </div>
-    </div>
-</section>
+<section class="section contact-hero">
+<div class="container">
+<ul class="breadcrumbs"><li><a href="index.html">Главная</a></li><li>/</li><li>Контакты</li></ul>
+<div class="contact-hero__panel">
+<div class="contact-hero__text">
+<p class="hero__eyebrow">Moscow Medical Department</p>
+<h1>Контакты</h1>
+<a class="contact-hero__phone" href="tel:+74957553503"><span class="contact-icon"><img src="assets/contact-phone-blue.svg" alt=""></span><span>8-495-755-35-03</span></a>
+<a class="contact-hero__mail" href="mailto:mmd03@bk.ru"><span class="contact-icon"><img src="assets/contact-mail-blue.svg" alt=""></span><span>mmd03@bk.ru</span></a>
+<p class="contact-hero__address"><span class="contact-icon"><img src="assets/contact-addres-blue.svg" alt=""></span><span>111123, г.Москва,<br>шоссе Энтузиастов, д.31, стр.27</span></p>
+<button class="btn btns__btn" data-callback>Заказать звонок</button>
+</div>
+<figure class="contact-hero__visual contact-scene" aria-label="Скорая помощь и врачи на фоне карты города"><img class="contact-scene__map" src="assets/contacts-map-art.png" alt="Стилизованная карта города"><img class="contact-scene__car" src="assets/contact-ambulance.png" alt="Машина скорой помощи"><img class="contact-scene__doctors" src="assets/contact-doctors-red.png" alt="Врачи в красной форме, медицинских масках и перчатках"></figure>
+</div></div></section>
 
 
 
@@ -189,7 +158,7 @@
         </div>
     </div>
 </section>
-<section class="section document-section"><div class="container"><h2>Отзывы наших клиентов</h2><p class="section-note">Нажмите на документ, чтобы рассмотреть его подробнее.</p><div class="document-grid"><button class="document-card" type="button" aria-label="Увеличить: Платная скорая помощь отзывы"><img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Скорая помощь в москве отзывы"><img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Дежурство скорой в москве отзывы"><img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Предрейсовые осмотры отзывы"><img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Вызов врача на дом отзывы"><img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Вызов скорой на дом отзывы"><img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: ЖД перевозка отзывы"><img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Перевозка больных отзывы"><img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Междугородная перевозка отзывы"><img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Международная перевозка отзывы"><img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Медицинские услуги отзывы"><img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Медицинская организация отзывы"><img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Медицинское сопровождение мероприятий отзывы"><img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Скорая помощь на похоронах отзывы"><img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по предрейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button><button class="document-card" type="button" aria-label="Увеличить: Отзывы по послерейсовым осмотрам"><img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"><span>Подробнее ↗</span></button></div></div></section>
+<section class="section document-section"><div class="container"><div class="contact-reviews-heading"><h2>Отзывы наших клиентов</h2><div class="contact-reviews-controls"><button type="button" class="contact-review-arrow contact-review-prev" aria-label="Предыдущие отзывы" aria-controls="contact-reviews">←</button><button type="button" class="contact-review-arrow contact-review-next" aria-label="Следующие отзывы" aria-controls="contact-reviews">→</button></div></div><div class="document-grid contact-reviews" id="contact-reviews"><div class="document-card"><img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div></div></div></section>
 
 </main><div class="bg" hidden></div>
 
