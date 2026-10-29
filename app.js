@@ -43,29 +43,8 @@ document.querySelector('button.footer__btn').addEventListener('click',openPopup)
 popup.querySelector('.popup__exit').addEventListener('click',closePopup);backdrop.addEventListener('click',closePopup);
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!popup.hidden)closePopup();closeMenu()}if(e.key==='Tab'&&!popup.hidden){const nodes=[...popup.querySelectorAll('button,a,input')].filter(n=>n.getClientRects().length&&!n.disabled);const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
 document.querySelectorAll('form').forEach(form=>{const status=document.createElement('p');status.className='form-status';status.setAttribute('role','status');form.append(status);form.addEventListener('submit',e=>{e.preventDefault();status.textContent='Это демонстрационная версия. Заявка не отправлена. Для связи позвоните: 8-495-755-35-03.'})});
-const viewer=document.createElement('dialog');viewer.className='image-dialog';viewer.innerHTML='<button type="button" aria-label="Закрыть изображение">×</button><img alt="">';document.body.append(viewer);viewer.querySelector('button').onclick=()=>viewer.close();viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close()});
 document.querySelectorAll('.slides__slide').forEach((slide,i)=>{const img=slide.querySelector('img');img.alt=i<3?'Лицензия — документ '+(i+1):'Благодарственное письмо — документ '+(i-2)});
 
-// FLIP: animate the viewer from the clicked thumbnail's actual viewport bounds.
-let imageOpenRequest = 0;
-async function openImageViewer(source) {
-  const request = ++imageOpenRequest;
-  const image = viewer.querySelector('img');
-  image.src = source.currentSrc || source.src;
-  image.alt = source.alt;
-  try { await image.decode(); } catch (_) { /* Keep native broken-image feedback. */ }
-  if (request !== imageOpenRequest || viewer.open) return;
-  const from = source.getBoundingClientRect();
-  viewer.showModal();
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const to = viewer.getBoundingClientRect();
-  if (!from.width || !from.height || !to.width || !to.height) return;
-  viewer.getAnimations().forEach(animation => animation.cancel());
-  viewer.animate([
-    {transformOrigin:'top left',transform:`translate(${from.left-to.left}px, ${from.top-to.top}px) scale(${from.width/to.width}, ${from.height/to.height})`,opacity:.65},
-    {transformOrigin:'top left',transform:'translate(0, 0) scale(1)',opacity:1}
-  ], {duration:440,easing:'cubic-bezier(.16,1,.3,1)'});
-}
 
 // Remember acceptance across page visits in this browser.
 (() => {

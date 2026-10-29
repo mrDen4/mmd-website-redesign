@@ -1,0 +1,8 @@
+/* Media slides have one effect only: a subtle scale on hover. */
+.slides__slide,.reviews__slide,.document-card,.slick-slide{cursor:default!important;box-shadow:none!important;transition:transform .3s ease!important;transform-origin:center}
+.slides__slide::before,.slides__slide::after,.reviews__slide::before,.reviews__slide::after,.document-card::before,.document-card::after{display:none!important}
+.slide-details,.slides__slide .image-detail,.reviews__slide .image-detail{display:none!important}
+.slides__slide img,.reviews__slide img,.document-card img,.image-open{cursor:default!important}
+.slides__slide:focus-within,.reviews__slide:focus-within,.document-card:focus-within{transform:none;box-shadow:none!important}
+@media(hover:hover){.slides__slide:hover,.reviews__slide:hover,.document-card:hover,.slick-slide:hover{transform:scale(1.025)!important;box-shadow:none!important;filter:none!important}}
+@media(prefers-reduced-motion:reduce){.slides__slide,.reviews__slide,.document-card,.slick-slide{transition:none!important}}

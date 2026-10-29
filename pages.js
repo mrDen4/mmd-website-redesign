@@ -1,6 +1,3 @@
-document.querySelectorAll('.document-card').forEach(button=>button.addEventListener('click',()=>openImageViewer(button.querySelector('img'))));
-const detail=document.createElement('a');detail.className='image-detail';detail.textContent='Подробнее';detail.target='_blank';detail.rel='noopener';viewer.append(detail);
-new MutationObserver(()=>{detail.href=viewer.querySelector('img').src}).observe(viewer.querySelector('img'),{attributes:true,attributeFilter:['src']});
 for(const type of ['services','news','sales']){
  const list=document.querySelector('.'+type+'__list'),button=document.querySelector('.'+type+'__btn');if(!list||!button)continue;
  const cards=[...list.children];let shown=6;
