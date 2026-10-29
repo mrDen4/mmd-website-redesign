@@ -53,3 +53,13 @@
 .callback .form__btn{background:#fff;border-color:#fff;color:var(--blue);font-size:15px}
 .callback .form__btn:hover,.callback .form__btn:focus-visible{background:#edf0ff;border-color:#edf0ff;color:#303875;box-shadow:0 0 20px #ffffff45}
 .callback .form__btn:focus-visible{outline:3px solid #fff;outline-offset:4px}
+
+/* Full-width home hero with soft photo edges. */
+.hero.section{padding-top:0;background:var(--pale,#f4f5f9)}
+.hero .hero__container{border-radius:0;background:transparent;background-image:none;overflow:visible}
+.hero .home-hero-photo{border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%);mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%)}
+
+.hero .hero__container{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.hero .hero__text{grid-column:1;grid-row:1}
+.hero .home-hero-photo{grid-column:2;grid-row:1}
+@media(max-width:1023px){.hero .hero__container{grid-template-columns:minmax(0,1fr)}.hero .hero__text{grid-column:1;grid-row:1}.hero .home-hero-photo{grid-column:1;grid-row:2}}

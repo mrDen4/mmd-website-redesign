@@ -1,0 +1,32 @@
+/* Light buttons keep their original fill while the blue glow fades in. */
+:is(.btn.btns__link,.btn.text__btn,button.btn.footer__btn,.callback .form__btn,.review-arrow,.contact-review-arrow){transition:box-shadow .3s ease,opacity .25s ease}
+.btn.btns__link:is(:hover,:focus-visible),.btn.text__btn:is(:hover,:focus-visible){background:transparent!important;color:var(--accent,#424a93)!important;border-color:var(--accent,#424a93)!important}
+button.btn.footer__btn:is(:hover,:focus-visible){background:transparent!important;color:var(--ink,#252b46)!important;border-color:#d3d6e2!important}
+.callback .form__btn:is(:hover,:focus-visible){background:#fff!important;color:var(--blue,#424a93)!important;border-color:#fff!important}
+.review-arrow:is(:hover,:focus-visible):not(:disabled),.contact-review-arrow:is(:hover,:focus-visible):not(:disabled){background:#fff!important;color:var(--blue,#424a93)!important;border-color:#d3d7e5!important}
+:is(.btn.btns__link,.btn.text__btn,button.btn.footer__btn,.callback .form__btn,.review-arrow,.contact-review-arrow):is(:hover,:focus-visible):not(:disabled){box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+@media(prefers-reduced-motion:reduce){:is(.btn.btns__link,.btn.text__btn,button.btn.footer__btn,.callback .form__btn,.review-arrow,.contact-review-arrow){transition:none}}
+
+/* Small transparent controls use the same glow without changing their fill. */
+.arrows__btn,.popup__exit{transition:box-shadow .3s ease}
+.arrows__btn:is(:hover,:focus-visible),.popup__exit:is(:hover,:focus-visible){box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+.review-arrow:is(:hover,:focus-visible) img{filter:brightness(0) saturate(100%) invert(28%) sepia(20%) saturate(1700%) hue-rotate(199deg)!important}
+
+/* White submit action on the blue callback panel. */
+.callback .form__btn{cursor:pointer}
+.callback .form__btn:is(:hover,:focus-visible):not(:disabled){box-shadow:0 0 18px rgba(255,255,255,.65),0 0 36px rgba(255,255,255,.38)}
+
+/* Form controls share the surrounding action's soft glow. */
+.callback .form__inp,.popup .row__inp,.consent input[type="checkbox"]{transition:box-shadow .3s ease,border-color .3s ease}
+.callback .form__inp:is(:hover,:focus){border-color:rgba(255,255,255,.8);box-shadow:0 0 14px rgba(255,255,255,.38),0 0 28px rgba(255,255,255,.18)}
+.popup .row__inp:is(:hover,:focus){border-color:#6975c4;box-shadow:0 0 14px rgba(65,91,225,.28),0 0 26px rgba(65,91,225,.14)}
+.consent input[type="checkbox"]{border-radius:3px;cursor:pointer}
+.consent:hover input[type="checkbox"],.consent input[type="checkbox"]:focus-visible{box-shadow:0 0 12px rgba(65,91,225,.48),0 0 22px rgba(65,91,225,.24)}
+.callback .consent:hover input[type="checkbox"],.callback .consent input[type="checkbox"]:focus-visible{box-shadow:0 0 12px rgba(255,255,255,.65),0 0 24px rgba(255,255,255,.36)}
+@media(prefers-reduced-motion:reduce){.callback .form__inp,.popup .row__inp,.consent input[type="checkbox"]{transition:none}}
+
+/* Custom checkbox shape keeps rounding consistent across browsers. */
+.consent input[type="checkbox"]{appearance:none;-webkit-appearance:none;box-sizing:border-box;display:inline-block;flex:0 0 20px;width:20px;height:20px;border:1px solid #c6cbe0;border-radius:6px;background-color:#fff;background-position:center;background-repeat:no-repeat;background-size:14px 14px;vertical-align:middle;cursor:pointer}
+.consent input[type="checkbox"]:checked{border-color:#6975c4;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m3 8 3 3 7-7' fill='none' stroke='%23424a93' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.consent input[type="checkbox"]:disabled{opacity:.5;cursor:not-allowed}
+@media(forced-colors:active){.consent input[type="checkbox"]{appearance:auto;-webkit-appearance:auto;background-image:none}}
