@@ -35,3 +35,10 @@
 .footer a.btn.footer__btn{background:#fff;border-color:#d3d6e2;color:var(--ink,#252b46);transition:box-shadow .3s ease}
 .footer a.btn.footer__btn:is(:hover,:focus-visible){background:#fff;border-color:#d3d6e2;color:var(--ink,#252b46);box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
 .footer button.btn.footer__btn{background:var(--blue,#424a93);border-color:var(--blue,#424a93);color:#fff;transition:background-color .3s ease,border-color .3s ease,box-shadow .3s ease}
+
+/* Submit buttons use the same centered glow as the other primary actions. */
+body .popup button.btn.form__btn{cursor:pointer;transition:background-color .3s ease,border-color .3s ease,box-shadow .3s ease}
+body .popup button.btn.form__btn:is(:hover,:focus-visible):not(:disabled){background:#35418f;border-color:#35418f;color:#fff;box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+body .callback .btn.form__btn{cursor:pointer;transition:box-shadow .3s ease}
+body .callback .btn.form__btn:is(:hover,:focus-visible):not(:disabled){background:#fff;color:var(--blue,#424a93);border-color:#fff;box-shadow:0 0 14px rgba(255,255,255,.42),0 0 28px 2px rgba(255,255,255,.2)}
+@media(prefers-reduced-motion:reduce){body :is(.popup,.callback) .btn.form__btn{transition:none}}

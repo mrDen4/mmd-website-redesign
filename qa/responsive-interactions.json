@@ -1,0 +1,362 @@
+[
+  {
+    "page": "index",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "index",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "index",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "index",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "index",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "index",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "service",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "services",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "contacts",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "about",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "licenses",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "news",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "payment",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "promotions",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 280,
+    "height": 653,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 320,
+    "height": 568,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 390,
+    "height": 844,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 768,
+    "height": 1024,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 844,
+    "height": 390,
+    "issues": []
+  },
+  {
+    "page": "useful",
+    "width": 1366,
+    "height": 720,
+    "issues": []
+  }
+]

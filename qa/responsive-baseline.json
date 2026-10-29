@@ -1,0 +1,702 @@
+[
+  {
+    "page": "index",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "service",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "services",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "contacts",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "licenses",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "news",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "payment",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "promotions",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 320,
+    "issues": [],
+    "scrollWidth": 320,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 375,
+    "issues": [],
+    "scrollWidth": 375,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 580,
+    "issues": [],
+    "scrollWidth": 580,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 768,
+    "issues": [],
+    "scrollWidth": 768,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 900,
+    "issues": [],
+    "scrollWidth": 900,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 1024,
+    "issues": [],
+    "scrollWidth": 1024,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 1100,
+    "issues": [],
+    "scrollWidth": 1100,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 1366,
+    "issues": [],
+    "scrollWidth": 1366,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 1920,
+    "issues": [],
+    "scrollWidth": 1920,
+    "errors": []
+  },
+  {
+    "page": "useful",
+    "width": 3840,
+    "issues": [],
+    "scrollWidth": 3840,
+    "errors": []
+  }
+]

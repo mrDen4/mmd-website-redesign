@@ -1,0 +1,50 @@
+/* Final shared adaptation layer, after page-specific styles. */
+main :is(.service-about__text,.buy__top-text,.page-intro){overflow-wrap:anywhere}
+main :is(.hero__text,.service-hero__text,.contact-hero__text){min-width:0}
+.popup{width:min(460px,calc(100% - 24px));max-height:calc(100dvh - 24px);overflow-y:auto;overscroll-behavior:contain}
+.popup .form__row,.callback .form__block,.callback .form__block-btn{min-width:0}
+.popup .row__inp,.callback .form__inp{max-width:100%;box-sizing:border-box}
+.consent{min-width:0;overflow-wrap:anywhere}
+.popup-menu__menu{margin-inline:auto}
+@media(max-width:600px){
+  .review-documents .contact-reviews-heading,.review-carousel-heading{flex-wrap:wrap;gap:16px}
+  .review-documents .contact-reviews-heading h2,.review-carousel-heading h2{flex:1 0 100%;min-width:0}
+  .review-documents .contact-reviews-controls,.review-carousel-controls{margin-left:auto}
+  .review-documents .contact-reviews .document-card{flex-basis:82%;padding:12px}
+  .review-documents .document-card img{height:clamp(220px,65vw,320px)}
+  .callback .callback__title{width:100%;max-width:100%;font-size:clamp(23px,5.7vw,30px);text-align:center;text-wrap:balance}
+  .popup-menu__menu{gap:4px 8px;padding-inline:12px}
+  .popup-menu__menu .item__link{overflow-wrap:anywhere}
+  .popup-menu__menu .mobile-menu-mail{white-space:normal;letter-spacing:normal;font-size:clamp(12px,3.5vw,17px);gap:4px}
+}
+@media(max-width:399px){
+  .inner-page .document-grid:not(.review-carousel):not(.contact-reviews){grid-template-columns:minmax(0,1fr)}
+  .page-contacts .contact-hero__text{padding-inline:18px}
+  .page-contacts :is(.contact-hero__phone,.contact-hero__mail){font-size:clamp(17px,5.2vw,20px);gap:10px}
+  .page-contacts .contact-hero__address{font-size:14px;gap:10px}
+}
+@media(max-width:319px){
+  :root{--page-gutter:12px}
+  .header__container{grid-template-columns:74px minmax(0,1fr) 40px;gap:3px}
+  .header__logo .logo__img{width:74px;max-width:100%}
+  .header__phone{font-size:11px;gap:3px;white-space:nowrap}
+  .header__phone .phone__icon{width:13px;height:13px}
+  .header__hamburger{min-width:40px;width:40px;padding:8px}
+  .hero .hero__text,.service-hero .service-hero__text{padding-inline:12px}
+  .hero h1,.service-hero__text h1,.inner-page h1{font-size:28px}
+  .footer__menu{column-gap:4px;font-size:14px}
+  .footer__phone,.footer__mail{font-size:11px;gap:4px}
+  .footer__phone .phone__icon,.footer__mail .mail__icon{width:14px;height:14px}
+  .popup{padding:42px 16px 20px}
+  #callback-popup .popup__title{font-size:25px;padding:0}
+}
+@media(max-height:540px){
+  .popup{padding:36px 24px 20px}
+  .popup__title{font-size:25px;margin-bottom:18px}
+  .popup .form__row{margin-bottom:10px}
+  .popup-menu{max-height:calc(100dvh - var(--header-height));overflow-y:auto}
+  .cookie-notice{max-height:45dvh}
+}
+@media(min-width:2200px){
+  .container{max-width:1600px}
+}
