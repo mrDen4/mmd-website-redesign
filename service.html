@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,19 +15,23 @@
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content= "https://03.com.ru"/>
-    
-    
-    
-    
+
+
+
+
     <link rel="icon" type="image/png" href="https://03.com.ru/assets/components/rma/assets/images/favicon.png">
-    
-    
-    
+
+
+
 <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="service.css">
 <script src="app.js" defer></script><script src="service.js" defer></script>
 <link rel="stylesheet" href="responsive.css">
 <link rel="stylesheet" href="button-hover.css">
 <link rel="stylesheet" href="slider-effects.css">
+<link rel="stylesheet" href="text-spacing.css">
+<link rel="stylesheet" href="breadcrumbs.css">
+<link rel="stylesheet" href="review-slider.css">
+<script src="review-slider.js" defer></script>
 </head>
 <body class="service-page"><a class="skip-link" href="#main">Перейти к содержанию</a>
 <header class="header">
@@ -53,7 +57,7 @@
             </li>
         </ul>
         <a href="tel:+74957553503" class="header__phone">
-            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+            <img src="assets/icons/contact-phone.svg" alt="телефон" class="phone__icon">
             8-495-755-35-03
         </a>
         <button class="header__hamburger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
@@ -64,7 +68,8 @@
 </header>
 <main id="main"><section class="section service-hero" itemscope itemtype="https://schema.org/Product">
     <div class="container service-hero__container">
-    <ul class="breadcrumbs">
+
+        <div class="service-hero__text"><ul class="breadcrumbs">
         <li class="breadcrumbs__item">
             <a href="index.html" class="item__link">Главная</a>
         </li>
@@ -77,12 +82,11 @@
         <li class="breadcrumbs__item">
             /
         </li>
-        <li class="breadcrumbs__item">
+        <li class="breadcrumbs__item" aria-current="page">
             Вызов скорой помощи
         </li>
-    </ul>
-        <div class="service-hero__text"><p class="hero__eyebrow">Moscow Medical Department</p>
-           
+    </ul><p class="hero__eyebrow">Moscow Medical Department</p>
+
             <h1 class="text__title" itemprop="name">Вызов платной скорой помощи</h1>
             <div class="text__block" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
                 <p class="text__price" itemprop="price" content="9000">
@@ -94,9 +98,9 @@
                 <button class="btn btns__btn">Заказать</button>
             <a href="#about" class="btn btns__link">
                 Подробнее
-                
+
             </a>
-            
+
             </div>
         </div>
         <img src="assets/service-hero-clear.png" alt="" class="service-hero__img">
@@ -104,7 +108,7 @@
 </section>
 <section class="section service-about" id="about">
     <div class="container service-about__container" itemscope itemtype="https://schema.org/Article">
-        
+
         <h2 class="service-about__title">Об услуге</h2>
         <div class="service-about__text" itemprop="description">
             <h2 dir="ltr"><span>Как работаем? </span></h2>
@@ -141,105 +145,10 @@
 
 <p><span id="docs-internal-guid-f54fdb03-7fff-db7b-2981-73c02d8067ea"><span>Сохраните номер  <strong><a href="tel:+74957553503">+7(495)755-35-03</a></strong> </span><span>в мобильном справочнике или оформите заявку для получения экстренной помощи.</span></span></p>
         </div>
-        
+
     </div>
 </section>
-<section class="section reviews-page reviews-page-no-padding">
-    <div class="container reviews__container">
-        <div class="service-reviews-heading"><h2 class="title license__title">Отзывы</h2><p>Благодарственные письма наших клиентов</p></div>
-<div class="reviews__slider-wrap">
-    <button class="review-arrow review-prev" aria-label="Предыдущие отзывы">←</button>
-    <button class="review-arrow review-next" aria-label="Следующие отзывы">→</button>
-    <div class="reviews__slider">
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" class="slide__img">
-        </div>    
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>     
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>  
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-        <div class="reviews__slide">
-            <img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" class="slide__img">
-        </div>
-    </div>
-</div>
-    </div>
-    
-</section>
+<section class="section document-section review-documents"><div class="container"><div class="contact-reviews-heading"><h2>Отзывы наших клиентов</h2><div class="contact-reviews-controls"><button type="button" class="contact-review-arrow contact-review-prev" aria-label="Предыдущие отзывы" aria-controls="contact-reviews">←</button><button type="button" class="contact-review-arrow contact-review-next" aria-label="Следующие отзывы" aria-controls="contact-reviews">→</button></div></div><div class="document-grid contact-reviews" id="contact-reviews"><div class="document-card"><img src="assets/components/rma/assets/images/reviews/1.jpg" alt="Платная скорая помощь отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/26.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/27.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/25.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/28.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/2.jpg" alt="Скорая помощь в москве отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/3.jpg" alt="Дежурство скорой в москве отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/4.jpg" alt="Предрейсовые осмотры отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/5.jpg" alt="Вызов врача на дом отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/6.jpg" alt="Вызов скорой на дом отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/7.jpg" alt="ЖД перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/8.jpg" alt="Перевозка больных отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/9.jpg" alt="Междугородная перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/10.jpg" alt="Международная перевозка отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/11.jpg" alt="Медицинские услуги отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/12.jpg" alt="Медицинская организация отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/13.jpg" alt="Медицинское сопровождение мероприятий отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/14.jpg" alt="Скорая помощь на похоронах отзывы" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/15.jpg" alt="Отзывы по предрейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/16.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/17.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/18.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/19.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/20.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/21.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/22.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/23.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div><div class="document-card"><img src="assets/components/rma/assets/images/reviews/24.jpg" alt="Отзывы по послерейсовым осмотрам" loading="lazy"></div></div></div></section>
 
 </main><div class="bg" hidden></div>
 
@@ -358,7 +267,7 @@
         <li class="menu__item">
             <a href="contacts.html" class="item__link">Контакты</a>
         </li>
-    <li class="menu__item"><a class="item__link mobile-menu-mail" href="mailto:mmd03@bk.ru"><img src="assets/components/rma/assets/images/new/form/email.svg" alt="" class="mobile-mail-icon">mmd03@bk.ru</a></li>
+    <li class="menu__item"><a class="item__link mobile-menu-mail" href="mailto:mmd03@bk.ru"><img src="assets/icons/contact-mail.svg" alt="" class="mobile-mail-icon">mmd03@bk.ru</a></li>
 </ul>
 </nav>
         <footer class="footer">
@@ -390,13 +299,13 @@
                     </li>
                     <li class="menu__item">
                         <a href="mailto:mmd03@bk.ru" class="footer__mail">
-                            <img src="assets/components/rma/assets/images/new/form/email.svg" alt="mail" class="mail__icon">
+                            <img src="assets/icons/contact-mail.svg" alt="mail" class="mail__icon">
                             mmd03@bk.ru
                         </a>
                     </li>
                     <li class="menu__item">
                         <a href="tel:+74957553503" class="footer__phone">
-                            <img src="assets/components/rma/assets/images/new/phone.svg" alt="телефон" class="phone__icon">
+                            <img src="assets/icons/contact-phone.svg" alt="телефон" class="phone__icon">
                             8-495-755-35-03
                         </a>
                     </li>
@@ -413,10 +322,10 @@
                 </div>
             </div>
         </footer>
-    
-    
-    
-    
+
+
+
+
 </body>
 
 </html>

@@ -32,7 +32,7 @@ body{min-width:320px}
 .image-dialog img{max-width:100%;max-height:calc(100dvh - 120px)}
 .image-dialog:has(.review-details) img{max-height:calc(100dvh - 190px)}
 .image-dialog>button{width:40px;height:40px;display:grid;place-items:center;top:0;right:0}
-.service-about__text{max-width:1000px}
+.service-about__text{width:100%;max-width:none}
 .reviews__slider{padding:14px 5px 28px;scroll-padding-inline:5px;overscroll-behavior-x:contain}
 .review-arrow{position:static;flex-shrink:0}
 .reviews__slider-wrap{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px}

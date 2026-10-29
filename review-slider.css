@@ -1,0 +1,14 @@
+/* One shared review slider for the service and contact pages. */
+.review-documents{padding:64px 0;background:var(--pale)}
+.review-documents .contact-reviews-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:28px}
+.review-documents .contact-reviews-heading h2{margin:0}
+.review-documents .contact-reviews-controls{display:flex;gap:10px;flex-shrink:0}
+.review-documents .contact-review-arrow{display:grid;place-items:center;width:44px;height:44px;border:1px solid #d3d7e5;border-radius:50%;background:#fff;color:var(--blue);font-size:23px;transition:box-shadow .3s ease,opacity .25s ease}
+.review-documents .contact-review-arrow:is(:hover,:focus-visible):not(:disabled){background:#fff;color:var(--blue);box-shadow:0 0 18px #415be17a,0 0 32px #415be147}
+.review-documents .contact-review-arrow:disabled{opacity:.35;cursor:default}
+.review-documents .contact-reviews{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;padding:10px 5px 24px;min-width:0}
+.review-documents .contact-reviews::-webkit-scrollbar{display:none}
+.review-documents .document-card{flex:0 0 calc((100% - 60px)/4);min-width:0;scroll-snap-align:start;background:#fff;border:1px solid var(--line);padding:16px;border-radius:14px}
+.review-documents .document-card img{width:100%;height:280px;object-fit:contain;margin:0}
+@media(max-width:900px){.review-documents .contact-reviews .document-card{flex-basis:calc((100% - 40px)/3)}}
+@media(max-width:600px){.review-documents{padding:40px 0}.review-documents .contact-reviews-heading{align-items:flex-start;gap:16px}.review-documents .contact-reviews-heading h2{font-size:28px}.review-documents .contact-reviews .document-card{flex-basis:72%}}

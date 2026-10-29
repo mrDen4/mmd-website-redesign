@@ -1,7 +1,7 @@
 /* Light buttons keep their original fill while the blue glow fades in. */
 :is(.btn.btns__link,.btn.text__btn,button.btn.footer__btn,.callback .form__btn,.review-arrow,.contact-review-arrow){transition:box-shadow .3s ease,opacity .25s ease}
 .btn.btns__link:is(:hover,:focus-visible),.btn.text__btn:is(:hover,:focus-visible){background:transparent!important;color:var(--accent,#424a93)!important;border-color:var(--accent,#424a93)!important}
-button.btn.footer__btn:is(:hover,:focus-visible){background:transparent!important;color:var(--ink,#252b46)!important;border-color:#d3d6e2!important}
+.footer button.btn.footer__btn:is(:hover,:focus-visible){background:#35418f!important;color:#fff!important;border-color:#35418f!important}
 .callback .form__btn:is(:hover,:focus-visible){background:#fff!important;color:var(--blue,#424a93)!important;border-color:#fff!important}
 .review-arrow:is(:hover,:focus-visible):not(:disabled),.contact-review-arrow:is(:hover,:focus-visible):not(:disabled){background:#fff!important;color:var(--blue,#424a93)!important;border-color:#d3d7e5!important}
 :is(.btn.btns__link,.btn.text__btn,button.btn.footer__btn,.callback .form__btn,.review-arrow,.contact-review-arrow):is(:hover,:focus-visible):not(:disabled){box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
@@ -31,6 +31,7 @@ button.btn.footer__btn:is(:hover,:focus-visible){background:transparent!importan
 .consent input[type="checkbox"]:disabled{opacity:.5;cursor:not-allowed}
 @media(forced-colors:active){.consent input[type="checkbox"]{appearance:auto;-webkit-appearance:auto;background-image:none}}
 
-/* The footer payment link is a primary blue action on every page. */
-.footer a.btn.footer__btn{background:var(--blue,#424a93);border-color:var(--blue,#424a93);color:#fff;transition:background-color .3s ease,border-color .3s ease,box-shadow .3s ease}
-.footer a.btn.footer__btn:is(:hover,:focus-visible){background:#35418f;border-color:#35418f;color:#fff;box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+/* Footer: payment is secondary, callback is the primary blue action. */
+.footer a.btn.footer__btn{background:#fff;border-color:#d3d6e2;color:var(--ink,#252b46);transition:box-shadow .3s ease}
+.footer a.btn.footer__btn:is(:hover,:focus-visible){background:#fff;border-color:#d3d6e2;color:var(--ink,#252b46);box-shadow:0 0 18px rgba(65,91,225,.48),0 0 32px rgba(65,91,225,.28)}
+.footer button.btn.footer__btn{background:var(--blue,#424a93);border-color:var(--blue,#424a93);color:#fff;transition:background-color .3s ease,border-color .3s ease,box-shadow .3s ease}

@@ -63,3 +63,11 @@
 .hero .hero__text{grid-column:1;grid-row:1}
 .hero .home-hero-photo{grid-column:2;grid-row:1}
 @media(max-width:1023px){.hero .hero__container{grid-template-columns:minmax(0,1fr)}.hero .hero__text{grid-column:1;grid-row:1}.hero .home-hero-photo{grid-column:1;grid-row:2}}
+
+/* Separate section actions from the compact body text. */
+:is(.about__text,.license__text,.faq__text) > .btn.text__btn{margin-top:24px}
+@media(max-width:580px){:is(.about__text,.license__text,.faq__text) > .btn.text__btn{margin-top:20px}}
+
+/* Consistent heading-to-copy spacing in homepage information sections. */
+body main section :is(.about__text,.faq__text,.license__container) > h2.text__title{margin-bottom:24px!important}
+@media(max-width:580px){body main section :is(.about__text,.faq__text,.license__container) > h2.text__title{margin-bottom:20px!important}}

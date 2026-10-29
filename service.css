@@ -46,14 +46,24 @@
   box-shadow:0 0 0 3px #e7ebfc;
 }
 
-/* Fade into the text panel, keeping the open door inside the visible crop. */
-.service-hero__container{background:var(--pale);border-radius:18px}
-.service-hero__container .breadcrumbs{background:#fff;margin-top:0;padding-top:24px;padding-bottom:24px;margin-bottom:0}
+/* Full-width service/brigade hero with a photo fading at both sides. */
+.service-hero{background:var(--pale)}
+.service-hero__container{background:transparent;border-radius:0}
+.service-hero__container .breadcrumbs{background:transparent;margin-top:0;padding-top:24px;padding-bottom:24px;margin-bottom:0}
 .service-hero__img{
   object-position:right center;
-  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 22%);
-  mask-image:linear-gradient(to right,transparent 0%,#000 22%);
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%);
+  mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%);
 }
 @media(max-width:700px){
   .service-hero__img{height:auto;min-height:0;aspect-ratio:3/2;object-fit:contain;object-position:right center}
 }
+
+.service-page .service-hero__text{background:transparent;border-radius:0}
+.service-page .service-hero__img{border-radius:0;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%);mask-image:linear-gradient(to right,transparent 0%,#000 20%,#000 82%,transparent 100%)}
+
+/* Breadcrumbs belong to the text column, so the photo starts at the hero top. */
+.service-page .service-hero__text>.breadcrumbs{order:-2;width:100%;padding:0;margin:0 0 28px;background:transparent;position:relative;top:-16px}
+@media(max-width:580px){.service-page .service-hero__text>.breadcrumbs{margin-bottom:22px}}
+
+@media(max-width:580px){.service-page .service-hero__text>.breadcrumbs{top:-8px}}

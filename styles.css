@@ -114,3 +114,6 @@ label.consent{display:flex;align-items:flex-start;justify-content:center;gap:10p
 /* Hide slider scrollbars without disabling swipe or arrow navigation. */
 .slider__slides,.reviews__slider,.contact-reviews,.license__slider{scrollbar-width:none;-ms-overflow-style:none}
 .slider__slides::-webkit-scrollbar,.reviews__slider::-webkit-scrollbar,.contact-reviews::-webkit-scrollbar,.license__slider::-webkit-scrollbar{display:none;width:0;height:0}
+
+/* Preserve the two-tone SVG artwork instead of flattening it into a silhouette. */
+img:is(.phone__icon,.mail__icon,.mobile-mail-icon)[src^="assets/icons/contact-"]{filter:none}

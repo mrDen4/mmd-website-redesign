@@ -1,0 +1,8 @@
+/* Breadcrumb links; the current page remains static. */
+.inner-page .breadcrumbs,.service-page .breadcrumbs{font-size:14px;line-height:1.5;gap:10px 14px}
+.breadcrumbs li:not(:last-child) a[href]:not([aria-current="page"]){position:relative;display:inline-block;color:inherit;transition:color .25s ease}
+.breadcrumbs li:not(:last-child) a[href]:not([aria-current="page"])::after{content:'';position:absolute;left:0;right:0;bottom:-2px;height:1px;border-radius:2px;background:var(--blue);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.breadcrumbs li:not(:last-child) a[href]:not([aria-current="page"]):is(:hover,:focus-visible){color:var(--blue)}
+.breadcrumbs li:not(:last-child) a[href]:not([aria-current="page"]):is(:hover,:focus-visible)::after{transform:scaleX(1)}
+@media(max-width:640px){.inner-page .breadcrumbs,.service-page .breadcrumbs{font-size:14px;gap:8px 10px}}
+@media(prefers-reduced-motion:reduce){.breadcrumbs a,.breadcrumbs a::after{transition:none!important}}

@@ -1,12 +1,3 @@
-const reviewTrack=document.querySelector('.reviews__slider');
-const prevReview=document.querySelector('.review-prev');
-const nextReview=document.querySelector('.review-next');
-function updateReviewButtons(){prevReview.disabled=reviewTrack.scrollLeft<2;nextReview.disabled=reviewTrack.scrollLeft+reviewTrack.clientWidth>=reviewTrack.scrollWidth-2}
-prevReview.addEventListener('click',()=>reviewTrack.scrollBy({left:-reviewTrack.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
-nextReview.addEventListener('click',()=>reviewTrack.scrollBy({left:reviewTrack.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));
-reviewTrack.addEventListener('scroll',updateReviewButtons);window.addEventListener('resize',updateReviewButtons);updateReviewButtons();
-document.querySelectorAll('.reviews__slide img').forEach(img=>{img.loading='lazy'});
-
 // Reveal text in place: original wrapping, links and the phone panel stay intact.
 (() => {
   const section = document.querySelector('.service-about');
