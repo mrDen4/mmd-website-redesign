@@ -6,3 +6,7 @@
 .slides__slide:focus-within,.reviews__slide:focus-within,.document-card:focus-within{transform:none;box-shadow:none!important}
 @media(hover:hover){.slides__slide:hover,.reviews__slide:hover,.document-card:hover,.slick-slide:hover{transform:scale(1.025)!important;box-shadow:none!important;filter:none!important}}
 @media(prefers-reduced-motion:reduce){.slides__slide,.reviews__slide,.document-card,.slick-slide{transition:none!important}}
+
+/* Documents stand on their own without a surrounding white card. */
+.slides__slide,.reviews__slide,.document-card,.slick-slide{background:transparent!important;border:0!important;box-shadow:none!important}
+.slides__slide,.reviews__slide,.document-card{padding:0!important;border-radius:0}

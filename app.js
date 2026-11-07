@@ -54,7 +54,7 @@ document.querySelectorAll('.slides__slide').forEach((slide,i)=>{const img=slide.
   notice.className = 'cookie-notice';
   notice.setAttribute('aria-label', 'Использование cookie');
   const text = document.createElement('p');
-  text.textContent = 'Мы используем cookie и технологии анализа данных. Сайт www.03.com.ru использует файлы cookie, технологии отслеживания и внешние медиафайлы для обеспечения удобной работы сайта и улучшения качества сервиса. Вы можете принять использование всех технологий или отказаться от необязательных файлов cookie. Нажимая «Принять», вы соглашаетесь с Политикой обработки персональных данных. Используя сайт, вы принимаете условия Пользовательского соглашения.';
+  text.innerHTML = 'Мы используем cookie и технологии анализа данных. Сайт <a href="https://03.com.ru/" target="_blank" rel="noopener noreferrer">www.03.com.ru</a> использует файлы cookie, технологии отслеживания и внешние медиафайлы для обеспечения удобной работы сайта и улучшения качества сервиса. Вы можете принять использование всех технологий или отказаться от необязательных файлов cookie. Нажимая «Принять», вы соглашаетесь с <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" rel="noopener noreferrer">Политикой обработки персональных данных</a>. Используя сайт, вы принимаете условия <a href="https://03.com.ru/assets/components/rma/assets/docs/soglasie-na-obrabotku-personalnih-dannih.pdf" target="_blank" rel="noopener noreferrer">Пользовательского соглашения</a>.';
   const accept = document.createElement('button');
   accept.type = 'button';
   accept.className = 'btn cookie-accept';

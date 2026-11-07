@@ -9,3 +9,7 @@ body main .service-about__text>p:last-child{margin-top:24px!important}
 @media(max-width:640px){body main :is(.service-about__text,.buy__top-text,.about__text,.faq__text,.license__text,.page-intro) :is(p,ul,ol,div,blockquote)+:is(h1,h2,h3,h4,h5,h6){margin-top:20px!important}}
 
 @media(max-width:640px){body main .service-about__title{margin-bottom:20px!important}body main .service-about__text>p:last-child{margin-top:20px!important}}
+
+/* Keep article lists aligned with surrounding paragraphs. */
+body main :is(.service-about__text,.buy__top-text,.about__text,.faq__text,.license__text,.page-intro) :is(ul,ol){padding-inline-start:0!important;margin-inline-start:0!important;list-style-position:inside}
+body main :is(.service-about__text,.buy__top-text,.about__text,.faq__text,.license__text,.page-intro) li{padding-inline-start:0!important;margin-inline-start:0!important}

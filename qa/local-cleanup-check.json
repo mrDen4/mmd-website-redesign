@@ -1,0 +1,92 @@
+[
+  {
+    "page": "index",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "service",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "services",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "contacts",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "about",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "licenses",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "news",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "payment",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "promotions",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  },
+  {
+    "page": "useful",
+    "eyebrows": 0,
+    "footerContacts": 0,
+    "newsLinks": 0,
+    "cardBackgrounds": 0,
+    "overflow": false,
+    "footerColumns": "174px 174px"
+  }
+]

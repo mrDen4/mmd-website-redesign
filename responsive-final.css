@@ -48,3 +48,58 @@ main :is(.hero__text,.service-hero__text,.contact-hero__text){min-width:0}
 @media(min-width:2200px){
   .container{max-width:1600px}
 }
+
+/* Circular contact artwork and a footer with four navigation links. */
+.contact-icon{border-radius:50%;background:transparent;flex-basis:42px;width:42px;height:42px}
+.contact-icon img{width:100%;height:100%;max-width:100%;filter:none}
+.contact-hero__text :is(a,p):hover .contact-icon{background:transparent;box-shadow:0 0 16px #424a9320}
+.header__phone .phone__icon{width:24px;height:24px;object-fit:contain}
+.mobile-mail-icon{width:22px;height:22px;object-fit:contain}
+.footer__menu{grid-template-columns:repeat(2,minmax(0,1fr))}
+.footer .footer__menu>.menu__item{grid-column:auto;margin:0;justify-self:start}
+@media(max-width:767px){.footer .footer__menu>.menu__item{grid-column:auto;justify-self:center}}
+@media(max-width:580px){.header__phone .phone__icon{width:18px;height:18px}}
+@media(max-width:319px){.header__phone .phone__icon{width:13px;height:13px}}
+
+@media(max-width:1023px){.popup-menu__menu .menu__item:last-child:has(.mobile-menu-mail){grid-column:1/-1}}
+
+/* Compact footer bar: navigation is grouped; actions share one row. */
+.footer{padding:28px 0 20px}
+.footer .footer__container{grid-template-columns:minmax(0,1fr) repeat(2,var(--action-width));gap:22px 16px;align-items:center}
+.footer .footer__menu{grid-column:1;grid-row:1;display:flex;flex-wrap:wrap;align-items:center;gap:8px 26px;width:fit-content;margin:0;font-size:17px;text-align:left}
+.footer .footer__menu>.menu__item{flex:0 0 auto;margin:0}
+.footer .footer__menu a{min-height:44px;justify-content:flex-start;white-space:nowrap}
+.footer .footer__btn{grid-column:auto;grid-row:1;justify-self:end;margin:0}
+.footer .footer__bottom{grid-column:1/-1;margin:0;padding-top:18px}
+.footer .footer__copy{margin:0;font-size:12px;line-height:1.7}
+@media(min-width:768px) and (max-width:1199px){
+  .footer .footer__menu{display:grid;grid-template-columns:repeat(2,max-content);gap:2px 28px}
+}
+@media(max-width:767px){
+  .footer{padding:24px 0 18px}
+  .footer .footer__container{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}
+  .footer .footer__menu{grid-column:1/-1;grid-row:1;display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;width:100%;gap:2px 36px;text-align:center;font-size:16px}
+  .footer .footer__menu>.menu__item{justify-self:center}
+  .footer .footer__menu a{justify-content:center}
+  .footer .footer__btn{grid-column:auto;grid-row:2;justify-self:center}
+  .footer .footer__bottom{padding-top:16px}
+  .footer .footer__copy{font-size:11px;line-height:1.65}
+}
+@media(max-width:359px){.footer .footer__menu{font-size:14px;column-gap:24px}}
+
+/* Draw the circular outline progressively on hover and keyboard focus. */
+svg.contact-symbol{flex-shrink:0;filter:none!important;vertical-align:middle}
+.contact-symbol__ring{stroke-dashoffset:90;transition:stroke-dashoffset .65s cubic-bezier(.22,.61,.36,1)}
+:is(.header__phone,.mobile-menu-mail,.contact-hero__phone,.contact-hero__mail,.contact-hero__address):is(:hover,:focus-visible,:focus-within) .contact-symbol__ring{stroke-dashoffset:0}
+.contact-icon svg.contact-symbol{width:100%;height:100%;max-width:100%;transition:transform .3s ease}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  .contact-hero__phone:hover svg.contact-symbol{animation:header-phone-ring .6s ease}
+  .contact-hero__mail:hover svg.contact-symbol{transform:translateY(-3px) rotate(-8deg)}
+  .contact-hero__address:hover svg.contact-symbol{transform:translateY(-4px)}
+}
+@media(prefers-reduced-motion:reduce){.contact-symbol__ring{transition:none}}
+
+/* Cookie notice links remain legible on the translucent surface. */
+.cookie-notice p a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;transition:color .2s ease,text-decoration-color .2s ease}
+.cookie-notice p a:is(:hover,:focus-visible){color:var(--blue);text-decoration-color:var(--blue)}
+.cookie-notice p a:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
